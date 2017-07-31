@@ -520,6 +520,7 @@
 				CE5A970E1EFBA00000E29A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5A970F1EFBA00000E29A3A /* Build configuration list for PBXNativeTarget "Block_delageteTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				CE5A97111EFBA00000E29A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5A97121EFBA00000E29A3A /* Build configuration list for PBXNativeTarget "Block_delageteUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				CE5A97141EFBA00000E29A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
