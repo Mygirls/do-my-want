@@ -110,7 +110,7 @@
                     [VC setTableViewOffSetY:offsetY];
                 }
             }];
-            NSLog(@"%f", offsetY);
+            //NSLog(@"%f", offsetY);
         };
         
         LHHAHAController *haha = [LHHAHAController new];

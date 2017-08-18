@@ -12,10 +12,15 @@ class ViewController: UIViewController {
 
     /// 测试
     var test:String?
+    let groupUin: String = "618719785"
+    let key: String = "3f4fd20a66abd578cc89b31c22f603f4a9a4eac050060e02e5876e79efdbb621"
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        joinGroup() 
     }
 
     
@@ -23,6 +28,32 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    func joinGroup() -> Bool {
+        
+        let urlStr: String = "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=" + groupUin + "&key=" + key + "&card_type=group&source=external"
+        
+        print(urlStr)
+        //mqqapi://cardow_pslcard?src_type=internal&version=1&uin=618719785&key=3f4fd20a66abd578cc89b31c22f603f4a9a4eac050060e02e5876e79efdbb621&card_type=group&source=external
+        
+        //mqqapi://card/show_pslcard?src_type=internal&version=1&uin=618719785&key=3f4fd20a66abd578cc89b31c22f603f4a9a4eac050060e02e5876e79efdbb621&card_type=group&source=external
+//        let url =  NSURL.init(string: urlStr)
+//        
+//        guard let tem = url else {
+//            return false
+//        }
+        
+        let url:URL = URL.init(string: urlStr)!
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.openURL(url)
+            return true
+        }else {
+            return false
+        }
+        
+    }
+
     
     /**
      - parameters:
@@ -151,6 +182,8 @@ extension ViewController {
         
     }
 }
+
+
 
 
 

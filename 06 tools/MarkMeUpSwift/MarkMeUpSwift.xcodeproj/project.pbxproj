@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					CE7DE28D1F0228AD00E30770 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = RZ6WBQL87R;
+						DevelopmentTeam = 7BALBZ7Z95;
 						ProvisioningStyle = Automatic;
 					};
 					CE7DE2A11F0228AD00E30770 = {
@@ -359,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -417,10 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
 				INFOPLIST_FILE = MarkMeUpSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mjq.MarkMeUpSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjq.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,10 +430,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
 				INFOPLIST_FILE = MarkMeUpSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mjq.MarkMeUpSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjq.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,6 +516,7 @@
 				CE7DE2B81F0228AD00E30770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7DE2B91F0228AD00E30770 /* Build configuration list for PBXNativeTarget "MarkMeUpSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				CE7DE2BB1F0228AD00E30770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7DE2BC1F0228AD00E30770 /* Build configuration list for PBXNativeTarget "MarkMeUpSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				CE7DE2BE1F0228AD00E30770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

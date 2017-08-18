@@ -32,6 +32,8 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    NSLog(@"%f  %f  %f %ld",self.tableView.frame.origin.x ,self.view.frame.size.width,self.tableView.frame.origin.x / self.view.frame.size.width ,self.index);
     if (self.tableView.frame.origin.x / self.view.frame.size.width != self.index) {
         return;
     }
@@ -39,12 +41,14 @@
 }
 
 - (void)setTableViewOffSetY:(CGFloat)offSetY {
+    NSLog(@"%@", self);
+    NSLog(@"%f ,%f", self.tableView.contentOffset.y,offSetY);
     if (self.tableView.contentOffset.y > 200 && offSetY > self.tableView.contentOffset.y) {
         return;
     }
     
-    NSLog(@"%@", self);
-    NSLog(@"%f", self.tableView.contentOffset.y);
+//    NSLog(@"%@", self);
+//    NSLog(@"%f ,%f", self.tableView.contentOffset.y,offSetY);
     [self.tableView setContentOffset:CGPointMake(0, offSetY)];
 }
 

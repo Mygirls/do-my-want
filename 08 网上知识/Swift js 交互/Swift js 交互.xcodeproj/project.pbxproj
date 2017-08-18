@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBD179E1F42FAA8001FCCB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD179D1F42FAA8001FCCB3 /* AppDelegate.swift */; };
+		CEBD17A01F42FAA8001FCCB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD179F1F42FAA8001FCCB3 /* ViewController.swift */; };
+		CEBD17A31F42FAA8001FCCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD17A11F42FAA8001FCCB3 /* Main.storyboard */; };
+		CEBD17A51F42FAA8001FCCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD17A41F42FAA8001FCCB3 /* Assets.xcassets */; };
+		CEBD17A81F42FAA8001FCCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD17A61F42FAA8001FCCB3 /* LaunchScreen.storyboard */; };
+		CEBD17B31F42FAA8001FCCB3 /* Swift_js___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17B21F42FAA8001FCCB3 /* Swift_js___Tests.swift */; };
+		CEBD17BE1F42FAA8001FCCB3 /* Swift_js___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17BD1F42FAA8001FCCB3 /* Swift_js___UITests.swift */; };
+		CEBD17CE1F42FAB9001FCCB3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17CD1F42FAB9001FCCB3 /* TestViewController.m */; };
+		CEBD17D91F42FACB001FCCB3 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = CEBD17D01F42FACB001FCCB3 /* ExampleApp.html */; };
+		CEBD17DA1F42FACB001FCCB3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17D21F42FACB001FCCB3 /* WebViewJavascriptBridge.m */; };
+		CEBD17DB1F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17D41F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.m */; };
+		CEBD17DC1F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17D61F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.m */; };
+		CEBD17DD1F42FACB001FCCB3 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD17D81F42FACB001FCCB3 /* WKWebViewJavascriptBridge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBD17AF1F42FAA8001FCCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD17921F42FAA8001FCCB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD17991F42FAA8001FCCB3;
+			remoteInfo = "Swift js 交互";
+		};
+		CEBD17BA1F42FAA8001FCCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD17921F42FAA8001FCCB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD17991F42FAA8001FCCB3;
+			remoteInfo = "Swift js 交互";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBD179A1F42FAA8001FCCB3 /* Swift js 交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift js 交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD179D1F42FAA8001FCCB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBD179F1F42FAA8001FCCB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBD17A21F42FAA8001FCCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBD17A41F42FAA8001FCCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBD17A71F42FAA8001FCCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBD17A91F42FAA8001FCCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD17AE1F42FAA8001FCCB3 /* Swift js 交互Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift js 交互Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD17B21F42FAA8001FCCB3 /* Swift_js___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_js___Tests.swift"; sourceTree = "<group>"; };
+		CEBD17B41F42FAA8001FCCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD17B91F42FAA8001FCCB3 /* Swift js 交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift js 交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD17BD1F42FAA8001FCCB3 /* Swift_js___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_js___UITests.swift"; sourceTree = "<group>"; };
+		CEBD17BF1F42FAA8001FCCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD17CB1F42FAB8001FCCB3 /* Swift js 交互-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift js 交互-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEBD17CC1F42FAB9001FCCB3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		CEBD17CD1F42FAB9001FCCB3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		CEBD17D01F42FACB001FCCB3 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		CEBD17D11F42FACB001FCCB3 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CEBD17D21F42FACB001FCCB3 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CEBD17D31F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		CEBD17D41F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		CEBD17D51F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		CEBD17D61F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		CEBD17D71F42FACB001FCCB3 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CEBD17D81F42FACB001FCCB3 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBD17971F42FAA8001FCCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD17AB1F42FAA8001FCCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD17B61F42FAA8001FCCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBD17911F42FAA8001FCCB3 = {
+			isa = PBXGroup;
+			children = (
+				CEBD179C1F42FAA8001FCCB3 /* Swift js 交互 */,
+				CEBD17B11F42FAA8001FCCB3 /* Swift js 交互Tests */,
+				CEBD17BC1F42FAA8001FCCB3 /* Swift js 交互UITests */,
+				CEBD179B1F42FAA8001FCCB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBD179B1F42FAA8001FCCB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD179A1F42FAA8001FCCB3 /* Swift js 交互.app */,
+				CEBD17AE1F42FAA8001FCCB3 /* Swift js 交互Tests.xctest */,
+				CEBD17B91F42FAA8001FCCB3 /* Swift js 交互UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBD179C1F42FAA8001FCCB3 /* Swift js 交互 */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD179D1F42FAA8001FCCB3 /* AppDelegate.swift */,
+				CEBD179F1F42FAA8001FCCB3 /* ViewController.swift */,
+				CEBD17CC1F42FAB9001FCCB3 /* TestViewController.h */,
+				CEBD17CD1F42FAB9001FCCB3 /* TestViewController.m */,
+				CEBD17CF1F42FACB001FCCB3 /* WebViewJavascriptBridge */,
+				CEBD17A11F42FAA8001FCCB3 /* Main.storyboard */,
+				CEBD17A41F42FAA8001FCCB3 /* Assets.xcassets */,
+				CEBD17A61F42FAA8001FCCB3 /* LaunchScreen.storyboard */,
+				CEBD17A91F42FAA8001FCCB3 /* Info.plist */,
+				CEBD17CB1F42FAB8001FCCB3 /* Swift js 交互-Bridging-Header.h */,
+			);
+			path = "Swift js 交互";
+			sourceTree = "<group>";
+		};
+		CEBD17B11F42FAA8001FCCB3 /* Swift js 交互Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD17B21F42FAA8001FCCB3 /* Swift_js___Tests.swift */,
+				CEBD17B41F42FAA8001FCCB3 /* Info.plist */,
+			);
+			path = "Swift js 交互Tests";
+			sourceTree = "<group>";
+		};
+		CEBD17BC1F42FAA8001FCCB3 /* Swift js 交互UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD17BD1F42FAA8001FCCB3 /* Swift_js___UITests.swift */,
+				CEBD17BF1F42FAA8001FCCB3 /* Info.plist */,
+			);
+			path = "Swift js 交互UITests";
+			sourceTree = "<group>";
+		};
+		CEBD17CF1F42FACB001FCCB3 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD17D01F42FACB001FCCB3 /* ExampleApp.html */,
+				CEBD17D11F42FACB001FCCB3 /* WebViewJavascriptBridge.h */,
+				CEBD17D21F42FACB001FCCB3 /* WebViewJavascriptBridge.m */,
+				CEBD17D31F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.h */,
+				CEBD17D41F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.m */,
+				CEBD17D51F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.h */,
+				CEBD17D61F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.m */,
+				CEBD17D71F42FACB001FCCB3 /* WKWebViewJavascriptBridge.h */,
+				CEBD17D81F42FACB001FCCB3 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBD17991F42FAA8001FCCB3 /* Swift js 交互 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD17C21F42FAA8001FCCB3 /* Build configuration list for PBXNativeTarget "Swift js 交互" */;
+			buildPhases = (
+				CEBD17961F42FAA8001FCCB3 /* Sources */,
+				CEBD17971F42FAA8001FCCB3 /* Frameworks */,
+				CEBD17981F42FAA8001FCCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift js 交互";
+			productName = "Swift js 交互";
+			productReference = CEBD179A1F42FAA8001FCCB3 /* Swift js 交互.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBD17AD1F42FAA8001FCCB3 /* Swift js 交互Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD17C51F42FAA8001FCCB3 /* Build configuration list for PBXNativeTarget "Swift js 交互Tests" */;
+			buildPhases = (
+				CEBD17AA1F42FAA8001FCCB3 /* Sources */,
+				CEBD17AB1F42FAA8001FCCB3 /* Frameworks */,
+				CEBD17AC1F42FAA8001FCCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD17B01F42FAA8001FCCB3 /* PBXTargetDependency */,
+			);
+			name = "Swift js 交互Tests";
+			productName = "Swift js 交互Tests";
+			productReference = CEBD17AE1F42FAA8001FCCB3 /* Swift js 交互Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBD17B81F42FAA8001FCCB3 /* Swift js 交互UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD17C81F42FAA8001FCCB3 /* Build configuration list for PBXNativeTarget "Swift js 交互UITests" */;
+			buildPhases = (
+				CEBD17B51F42FAA8001FCCB3 /* Sources */,
+				CEBD17B61F42FAA8001FCCB3 /* Frameworks */,
+				CEBD17B71F42FAA8001FCCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD17BB1F42FAA8001FCCB3 /* PBXTargetDependency */,
+			);
+			name = "Swift js 交互UITests";
+			productName = "Swift js 交互UITests";
+			productReference = CEBD17B91F42FAA8001FCCB3 /* Swift js 交互UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBD17921F42FAA8001FCCB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cfzq;
+				TargetAttributes = {
+					CEBD17991F42FAA8001FCCB3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7BALBZ7Z95;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					CEBD17AD1F42FAA8001FCCB3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = RZ6WBQL87R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEBD17991F42FAA8001FCCB3;
+					};
+					CEBD17B81F42FAA8001FCCB3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = RZ6WBQL87R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEBD17991F42FAA8001FCCB3;
+					};
+				};
+			};
+			buildConfigurationList = CEBD17951F42FAA8001FCCB3 /* Build configuration list for PBXProject "Swift js 交互" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBD17911F42FAA8001FCCB3;
+			productRefGroup = CEBD179B1F42FAA8001FCCB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBD17991F42FAA8001FCCB3 /* Swift js 交互 */,
+				CEBD17AD1F42FAA8001FCCB3 /* Swift js 交互Tests */,
+				CEBD17B81F42FAA8001FCCB3 /* Swift js 交互UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBD17981F42FAA8001FCCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD17A81F42FAA8001FCCB3 /* LaunchScreen.storyboard in Resources */,
+				CEBD17A51F42FAA8001FCCB3 /* Assets.xcassets in Resources */,
+				CEBD17A31F42FAA8001FCCB3 /* Main.storyboard in Resources */,
+				CEBD17D91F42FACB001FCCB3 /* ExampleApp.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD17AC1F42FAA8001FCCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD17B71F42FAA8001FCCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBD17961F42FAA8001FCCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD17CE1F42FAB9001FCCB3 /* TestViewController.m in Sources */,
+				CEBD17DA1F42FACB001FCCB3 /* WebViewJavascriptBridge.m in Sources */,
+				CEBD17A01F42FAA8001FCCB3 /* ViewController.swift in Sources */,
+				CEBD179E1F42FAA8001FCCB3 /* AppDelegate.swift in Sources */,
+				CEBD17DC1F42FACB001FCCB3 /* WebViewJavascriptBridgeBase.m in Sources */,
+				CEBD17DB1F42FACB001FCCB3 /* WebViewJavascriptBridge_JS.m in Sources */,
+				CEBD17DD1F42FACB001FCCB3 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD17AA1F42FAA8001FCCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD17B31F42FAA8001FCCB3 /* Swift_js___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD17B51F42FAA8001FCCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD17BE1F42FAA8001FCCB3 /* Swift_js___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBD17B01F42FAA8001FCCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD17991F42FAA8001FCCB3 /* Swift js 交互 */;
+			targetProxy = CEBD17AF1F42FAA8001FCCB3 /* PBXContainerItemProxy */;
+		};
+		CEBD17BB1F42FAA8001FCCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD17991F42FAA8001FCCB3 /* Swift js 交互 */;
+			targetProxy = CEBD17BA1F42FAA8001FCCB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBD17A11F42FAA8001FCCB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD17A21F42FAA8001FCCB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBD17A61F42FAA8001FCCB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD17A71F42FAA8001FCCB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBD17C01F42FAA8001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBD17C11F42FAA8001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBD17C31F42FAA8001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
+				INFOPLIST_FILE = "Swift js 交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lejingjitest.cfzq.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift js 交互/Swift js 交互-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEBD17C41F42FAA8001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
+				INFOPLIST_FILE = "Swift js 交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lejingjitest.cfzq.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift js 交互/Swift js 交互-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEBD17C61F42FAA8001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = "Swift js 交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjq.Swift-js---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift js 交互.app/Swift js 交互";
+			};
+			name = Debug;
+		};
+		CEBD17C71F42FAA8001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = "Swift js 交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjq.Swift-js---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift js 交互.app/Swift js 交互";
+			};
+			name = Release;
+		};
+		CEBD17C91F42FAA8001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = "Swift js 交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjq.Swift-js---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift js 交互";
+			};
+			name = Debug;
+		};
+		CEBD17CA1F42FAA8001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = "Swift js 交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjq.Swift-js---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift js 交互";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBD17951F42FAA8001FCCB3 /* Build configuration list for PBXProject "Swift js 交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD17C01F42FAA8001FCCB3 /* Debug */,
+				CEBD17C11F42FAA8001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD17C21F42FAA8001FCCB3 /* Build configuration list for PBXNativeTarget "Swift js 交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD17C31F42FAA8001FCCB3 /* Debug */,
+				CEBD17C41F42FAA8001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEBD17C51F42FAA8001FCCB3 /* Build configuration list for PBXNativeTarget "Swift js 交互Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD17C61F42FAA8001FCCB3 /* Debug */,
+				CEBD17C71F42FAA8001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEBD17C81F42FAA8001FCCB3 /* Build configuration list for PBXNativeTarget "Swift js 交互UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD17C91F42FAA8001FCCB3 /* Debug */,
+				CEBD17CA1F42FAA8001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBD17921F42FAA8001FCCB3 /* Project object */;
+}
