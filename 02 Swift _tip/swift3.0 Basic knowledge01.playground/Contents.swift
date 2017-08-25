@@ -33,6 +33,12 @@ var maxAudioSample = AudioSample.max
 //6.元组 tuples
 let http404Errol = (404,"Not Found")
 let (statusCode,statusMeg) = http404Errol
+
+var testTup:(a: String,b: String)?
+testTup?.a = "a"  //都是nil
+testTup?.b
+print(testTup)
+
 statusCode
 statusMeg
 
@@ -93,6 +99,9 @@ for c in "dog !".characters {
 //12.访问和修改字符串
 let greeting = "Guten Tag!"
 greeting[greeting.startIndex]
+
+type(of: greeting.startIndex)
+
 // G
 greeting[greeting.index(before: greeting.endIndex)]
 // !
@@ -104,6 +113,7 @@ greeting[index]
 
 //使用 characters 属性的 indices 属性会创建一个包含全部索引的范围(Range)，用来在一个字符串中访问单 个字符。
 for index in greeting.characters.indices {
+    type(of: index)
     print("\(greeting[index])")
 }
 
@@ -124,7 +134,7 @@ let range = welcome.index(welcome.endIndex, offsetBy: -6)..<welcome.endIndex
 welcome.removeSubrange(range)
 
 
-
+print("--------------------")
 //13.集合 - Array
 var someInts = [Int]()
 print("\(someInts.count) --- \(type(of: someInts))")
@@ -199,7 +209,9 @@ print(letters.count)
 print(type(of: letters))
 
 letters.insert("a")
-
+let f = letters.insert("b")
+print(type(of: f))
+print(letters)
 //let tetters2 = []//error: empty collection literal requires an explicit type
 
 letters = []
@@ -294,6 +306,7 @@ if let oldValue = airports.updateValue("Dublin Airport", forKey: "DUB") {
     print("The old value for DUB was \(oldValue).")
 }
 
+print("---------------\(airports)")
 if let oldValue = airports.updateValue("Dublin Airport", forKey: "DUB2") {
     print("The old value for DUB was \(oldValue).")
 } else {
@@ -338,6 +351,172 @@ for value in airports.values {
 }
 
 airports.keys.sorted()
+
+print("**************第二章节***********************")
+print("控制流")
+print("*************************************")
+for index in 0 ..< 5 {
+    print("\(index) time 5 is \(index * 5)")
+}
+
+for _ in 1 ... 3 {
+    print("*")
+}
+
+let names = ["Anna","Jack","ma"]
+for name in names {
+    print("hello ,\(name)")
+}
+
+let numberOfLegs = ["a":1,"b": 2]
+for (key, value) in numberOfLegs {  //无序的
+    print("key = \(key),value = \(value)")
+    
+}
+
+print("--------------switch--------------")
+
+let someCharcater: Character = "z"
+switch someCharcater {
+case "a":
+    print("The first letter of the alphabe")
+case "b":
+    print("The last letter of the alphabet")
+default:
+    print("Some other character")
+}
+
+let anotherCharacter: Character = "a"
+switch anotherCharacter {
+case "a","A":
+    print("the letter A")
+case "b":
+    break
+default:
+    print("not the letter A")
+}
+
+//匹配区间
+let approximateCount = 62
+let countedThings = "moons orbiting Saturn"
+var naturalCount: String
+
+switch approximateCount {
+case 0:
+    naturalCount = "No"
+case 0 ..< 5 :
+    naturalCount = "a few"
+case 5 ..< 12:
+    naturalCount = "several"
+case 12 ..< 100:
+    naturalCount = "dozens of"
+case 100 ..< 1000:
+    naturalCount = "hundreds of"
+default:
+    naturalCount = "many"
+}
+
+print(naturalCount)
+
+print("-----------------控制转移语句-----------------")
+print("continue")
+//continue 语句告诉一个循环体立刻停止本次循环，重新开始下次循环。就好像在说“本次循环我已经执行完 了”，但是并不会离开整个循环体
+for i in 0 ..< 5 {
+    if i == 2 {
+        continue
+    }
+    print(i)
+}
+
+print("break")
+//break 语句会立刻结束整个控制流的执行。当你想要更早的结束一个 switch 代码块或者一个循环体时，你都可以 使用 break 语句。通常在swift 里面使用
+for i in 0 ..< 5 {
+    if i == 2 {
+        break
+    }
+    print(i)
+}
+
+for i in 0 ..< 3 {
+    for j in 4 ..< 6 {
+        
+        print("j = \(j)")
+    }
+}
+
+print("---")    //跳出当前整个控制流的执行
+for i in 0 ..< 3 {
+    for j in 4 ..< 6 {
+        if j == 5 {
+            break
+        }
+        print("j = \(j)")
+    }
+}
+print("fallthrough")    //贯穿
+let intergerToDescribe = 2
+switch intergerToDescribe {
+case 1,2,3:
+    print(intergerToDescribe)
+    fallthrough
+case 4:
+    print("---4 ---")   //fallthrough fallthrough 关键字不会检查它下一个将会落入执行的 case 中的匹配条件。 fallthrough 简单地使代 码继续连接到下一个 case 中的代码，这和 C 语言标准中的 switch 语句特性是一样的，但不会继续执行到 更下一步
+default:
+    print("---fallthrough---")
+}
+
+
+
+print("return")
+func greet() {
+    
+    for i in 0 ..< 3 {
+        for j in 4 ..< 6 {
+            if j == 5 { //跳出整个大的循环
+                return
+            }
+            print("j = \(j)")
+        }
+    }
+}
+
+greet()
+
+print("---")
+func greet2() {
+    
+    for i in 0 ..< 3 {
+        for j in 4 ..< 6 {
+            if j == 5 { //跳出 当前 小的循环
+                break
+            }
+            print("j = \(j)")
+        }
+    }
+}
+greet2()
+
+
+//提前退出: guard
+//像 if 语句一样， guard 的执行取决于一个表达式的布尔值。我们可以使用 guard 语句来要求条件必须为真 时，以执行 guard 语句后的代码。不同于 if 语句，一个 guard 语句总是有一个 else 从句，如果条件不为真则执 行 else 从句中的代码。
+
+//检测 API 可用性
+///我们在 if 或 guard 语句中使用 可用性条件(availability condition) 去有条件的执行一段代码，来在运行时判 断调用的API是否可用。编译器使用从可用性条件语句中获取的信息去验证，在这个代码块中调用的 API 是否可 用
+if #available(iOS 10, macOS 10.12, *) {
+    // 在 iOS 使用 iOS 10 的 API, 在 macOS 使用 macOS 10.12 的 API
+} else {
+    // 使用先前版本的 iOS 和 macOS 的 API
+}
+//以上可用性条件指定，在iOS中， if 语句的代码块仅仅在 iOS 10 及更高的系统下运行;在 macOS中，仅在 macO S 10.12 及更高才会运行。
+//最后一个参数， * ，是必须的，用于指定在所有其它平台中，如果版本号高于你的设 备指定的最低版本，if语句的代码块将会运行。
+
+
+
+
+
+
+
+
 
 
 
