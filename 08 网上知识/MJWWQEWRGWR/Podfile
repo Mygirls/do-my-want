@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+target 'MJWWQEWRGWR' do
+
+
+pod 'MJRefresh', '~> 3.1.0'
+
+
+end
