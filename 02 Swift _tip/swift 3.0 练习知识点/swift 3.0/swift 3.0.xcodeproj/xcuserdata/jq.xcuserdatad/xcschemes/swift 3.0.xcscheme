@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B2D11231F55AB7A00DDADC9"
+               BlueprintIdentifier = "0B6B58031F57A22500DDE4A7"
                BuildableName = "swift 3.0.app"
                BlueprintName = "swift 3.0"
                ReferencedContainer = "container:swift 3.0.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B2D11371F55AB7A00DDADC9"
+               BlueprintIdentifier = "0B6B58171F57A22500DDE4A7"
                BuildableName = "swift 3.0Tests.xctest"
                BlueprintName = "swift 3.0Tests"
                ReferencedContainer = "container:swift 3.0.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B2D11421F55AB7A00DDADC9"
+               BlueprintIdentifier = "0B6B58221F57A22500DDE4A7"
                BuildableName = "swift 3.0UITests.xctest"
                BlueprintName = "swift 3.0UITests"
                ReferencedContainer = "container:swift 3.0.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B2D11231F55AB7A00DDADC9"
+            BlueprintIdentifier = "0B6B58031F57A22500DDE4A7"
             BuildableName = "swift 3.0.app"
             BlueprintName = "swift 3.0"
             ReferencedContainer = "container:swift 3.0.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B2D11231F55AB7A00DDADC9"
+            BlueprintIdentifier = "0B6B58031F57A22500DDE4A7"
             BuildableName = "swift 3.0.app"
             BlueprintName = "swift 3.0"
             ReferencedContainer = "container:swift 3.0.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B2D11231F55AB7A00DDADC9"
+            BlueprintIdentifier = "0B6B58031F57A22500DDE4A7"
             BuildableName = "swift 3.0.app"
             BlueprintName = "swift 3.0"
             ReferencedContainer = "container:swift 3.0.xcodeproj">

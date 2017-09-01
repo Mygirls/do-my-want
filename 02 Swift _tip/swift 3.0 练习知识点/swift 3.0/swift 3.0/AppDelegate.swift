@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  swift 3.0
 //
-//  Created by JQ on 2017/8/29.
+//  Created by JQ on 2017/8/31.
 //  Copyright © 2017年 majq. All rights reserved.
 //
 
