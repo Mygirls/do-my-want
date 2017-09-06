@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BAFF1471F5C278D000AD1DB /* AFNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */; };
+		0BAFF14A1F5C2ABE000AD1DB /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF1491F5C2ABE000AD1DB /* APIManager.m */; };
+		0BB544781F5C06DF00844788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB544771F5C06DF00844788 /* main.m */; };
+		0BB5447B1F5C06DF00844788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB5447A1F5C06DF00844788 /* AppDelegate.m */; };
+		0BB5447E1F5C06DF00844788 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB5447D1F5C06DF00844788 /* ViewController.m */; };
+		0BB544811F5C06DF00844788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB5447F1F5C06DF00844788 /* Main.storyboard */; };
+		0BB544831F5C06DF00844788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB544821F5C06DF00844788 /* Assets.xcassets */; };
+		0BB544861F5C06DF00844788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB544841F5C06DF00844788 /* LaunchScreen.storyboard */; };
+		0BB544911F5C06DF00844788 /* MajqFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB544901F5C06DF00844788 /* MajqFrameworkTests.m */; };
+		0BB5449C1F5C06DF00844788 /* MajqFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB5449B1F5C06DF00844788 /* MajqFrameworkUITests.m */; };
+		77BFA066300B982EE48FFC8B /* libPods-MajqFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 537B462627DDE82526ADB1E6 /* libPods-MajqFramework.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BB5448D1F5C06DF00844788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB5446B1F5C06DF00844788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB544721F5C06DF00844788;
+			remoteInfo = MajqFramework;
+		};
+		0BB544981F5C06DF00844788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB5446B1F5C06DF00844788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB544721F5C06DF00844788;
+			remoteInfo = MajqFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BAFF1451F5C278D000AD1DB /* AFNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetRequest.h; sourceTree = "<group>"; };
+		0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetRequest.m; sourceTree = "<group>"; };
+		0BAFF1481F5C2ABE000AD1DB /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		0BAFF1491F5C2ABE000AD1DB /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		0BB544731F5C06DF00844788 /* MajqFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MajqFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB544771F5C06DF00844788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BB544791F5C06DF00844788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BB5447A1F5C06DF00844788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BB5447C1F5C06DF00844788 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BB5447D1F5C06DF00844788 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BB544801F5C06DF00844788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BB544821F5C06DF00844788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BB544851F5C06DF00844788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BB544871F5C06DF00844788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB5448C1F5C06DF00844788 /* MajqFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajqFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB544901F5C06DF00844788 /* MajqFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajqFrameworkTests.m; sourceTree = "<group>"; };
+		0BB544921F5C06DF00844788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB544971F5C06DF00844788 /* MajqFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajqFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB5449B1F5C06DF00844788 /* MajqFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajqFrameworkUITests.m; sourceTree = "<group>"; };
+		0BB5449D1F5C06DF00844788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537B462627DDE82526ADB1E6 /* libPods-MajqFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MajqFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A498C08504740BFD22646FE5 /* Pods-MajqFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajqFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MajqFramework/Pods-MajqFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		F58EC854BEA87CFF05084B60 /* Pods-MajqFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajqFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MajqFramework/Pods-MajqFramework.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB544701F5C06DF00844788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFA066300B982EE48FFC8B /* libPods-MajqFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB544891F5C06DF00844788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB544941F5C06DF00844788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB5446A1F5C06DF00844788 = {
+			isa = PBXGroup;
+			children = (
+				0BB544751F5C06DF00844788 /* MajqFramework */,
+				0BB5448F1F5C06DF00844788 /* MajqFrameworkTests */,
+				0BB5449A1F5C06DF00844788 /* MajqFrameworkUITests */,
+				0BB544741F5C06DF00844788 /* Products */,
+				0E3D87DD3C9CB1674B7E49D6 /* Pods */,
+				50FD6BC5B98CD4DFC54C5E58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB544741F5C06DF00844788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB544731F5C06DF00844788 /* MajqFramework.app */,
+				0BB5448C1F5C06DF00844788 /* MajqFrameworkTests.xctest */,
+				0BB544971F5C06DF00844788 /* MajqFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB544751F5C06DF00844788 /* MajqFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0BB544791F5C06DF00844788 /* AppDelegate.h */,
+				0BB5447A1F5C06DF00844788 /* AppDelegate.m */,
+				0BB5447C1F5C06DF00844788 /* ViewController.h */,
+				0BB5447D1F5C06DF00844788 /* ViewController.m */,
+				0BAFF1451F5C278D000AD1DB /* AFNetRequest.h */,
+				0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */,
+				0BAFF1481F5C2ABE000AD1DB /* APIManager.h */,
+				0BAFF1491F5C2ABE000AD1DB /* APIManager.m */,
+				0BB5447F1F5C06DF00844788 /* Main.storyboard */,
+				0BB544821F5C06DF00844788 /* Assets.xcassets */,
+				0BB544841F5C06DF00844788 /* LaunchScreen.storyboard */,
+				0BB544871F5C06DF00844788 /* Info.plist */,
+				0BB544761F5C06DF00844788 /* Supporting Files */,
+			);
+			path = MajqFramework;
+			sourceTree = "<group>";
+		};
+		0BB544761F5C06DF00844788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BB544771F5C06DF00844788 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BB5448F1F5C06DF00844788 /* MajqFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB544901F5C06DF00844788 /* MajqFrameworkTests.m */,
+				0BB544921F5C06DF00844788 /* Info.plist */,
+			);
+			path = MajqFrameworkTests;
+			sourceTree = "<group>";
+		};
+		0BB5449A1F5C06DF00844788 /* MajqFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB5449B1F5C06DF00844788 /* MajqFrameworkUITests.m */,
+				0BB5449D1F5C06DF00844788 /* Info.plist */,
+			);
+			path = MajqFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		0E3D87DD3C9CB1674B7E49D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A498C08504740BFD22646FE5 /* Pods-MajqFramework.debug.xcconfig */,
+				F58EC854BEA87CFF05084B60 /* Pods-MajqFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50FD6BC5B98CD4DFC54C5E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				537B462627DDE82526ADB1E6 /* libPods-MajqFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB544721F5C06DF00844788 /* MajqFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB544A01F5C06DF00844788 /* Build configuration list for PBXNativeTarget "MajqFramework" */;
+			buildPhases = (
+				F1B1B1E1DBA85209226F0223 /* [CP] Check Pods Manifest.lock */,
+				0BB5446F1F5C06DF00844788 /* Sources */,
+				0BB544701F5C06DF00844788 /* Frameworks */,
+				0BB544711F5C06DF00844788 /* Resources */,
+				83733166F8E9CA4453FC9A9C /* [CP] Embed Pods Frameworks */,
+				036980107A9D52C6FCFC27C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MajqFramework;
+			productName = MajqFramework;
+			productReference = 0BB544731F5C06DF00844788 /* MajqFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BB5448B1F5C06DF00844788 /* MajqFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB544A31F5C06DF00844788 /* Build configuration list for PBXNativeTarget "MajqFrameworkTests" */;
+			buildPhases = (
+				0BB544881F5C06DF00844788 /* Sources */,
+				0BB544891F5C06DF00844788 /* Frameworks */,
+				0BB5448A1F5C06DF00844788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB5448E1F5C06DF00844788 /* PBXTargetDependency */,
+			);
+			name = MajqFrameworkTests;
+			productName = MajqFrameworkTests;
+			productReference = 0BB5448C1F5C06DF00844788 /* MajqFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BB544961F5C06DF00844788 /* MajqFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB544A61F5C06DF00844788 /* Build configuration list for PBXNativeTarget "MajqFrameworkUITests" */;
+			buildPhases = (
+				0BB544931F5C06DF00844788 /* Sources */,
+				0BB544941F5C06DF00844788 /* Frameworks */,
+				0BB544951F5C06DF00844788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB544991F5C06DF00844788 /* PBXTargetDependency */,
+			);
+			name = MajqFrameworkUITests;
+			productName = MajqFrameworkUITests;
+			productReference = 0BB544971F5C06DF00844788 /* MajqFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB5446B1F5C06DF00844788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = majq;
+				TargetAttributes = {
+					0BB544721F5C06DF00844788 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0BB5448B1F5C06DF00844788 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0BB544721F5C06DF00844788;
+					};
+					0BB544961F5C06DF00844788 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0BB544721F5C06DF00844788;
+					};
+				};
+			};
+			buildConfigurationList = 0BB5446E1F5C06DF00844788 /* Build configuration list for PBXProject "MajqFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BB5446A1F5C06DF00844788;
+			productRefGroup = 0BB544741F5C06DF00844788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB544721F5C06DF00844788 /* MajqFramework */,
+				0BB5448B1F5C06DF00844788 /* MajqFrameworkTests */,
+				0BB544961F5C06DF00844788 /* MajqFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB544711F5C06DF00844788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB544861F5C06DF00844788 /* LaunchScreen.storyboard in Resources */,
+				0BB544831F5C06DF00844788 /* Assets.xcassets in Resources */,
+				0BB544811F5C06DF00844788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB5448A1F5C06DF00844788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB544951F5C06DF00844788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036980107A9D52C6FCFC27C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajqFramework/Pods-MajqFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83733166F8E9CA4453FC9A9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajqFramework/Pods-MajqFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B1B1E1DBA85209226F0223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MajqFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB5446F1F5C06DF00844788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAFF1471F5C278D000AD1DB /* AFNetRequest.m in Sources */,
+				0BB5447E1F5C06DF00844788 /* ViewController.m in Sources */,
+				0BB5447B1F5C06DF00844788 /* AppDelegate.m in Sources */,
+				0BB544781F5C06DF00844788 /* main.m in Sources */,
+				0BAFF14A1F5C2ABE000AD1DB /* APIManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB544881F5C06DF00844788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB544911F5C06DF00844788 /* MajqFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB544931F5C06DF00844788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB5449C1F5C06DF00844788 /* MajqFrameworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB5448E1F5C06DF00844788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB544721F5C06DF00844788 /* MajqFramework */;
+			targetProxy = 0BB5448D1F5C06DF00844788 /* PBXContainerItemProxy */;
+		};
+		0BB544991F5C06DF00844788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB544721F5C06DF00844788 /* MajqFramework */;
+			targetProxy = 0BB544981F5C06DF00844788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BB5447F1F5C06DF00844788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB544801F5C06DF00844788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BB544841F5C06DF00844788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB544851F5C06DF00844788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BB5449E1F5C06DF00844788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BB5449F1F5C06DF00844788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BB544A11F5C06DF00844788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A498C08504740BFD22646FE5 /* Pods-MajqFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MajqFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BB544A21F5C06DF00844788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58EC854BEA87CFF05084B60 /* Pods-MajqFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MajqFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0BB544A41F5C06DF00844788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MajqFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajqFramework.app/MajqFramework";
+			};
+			name = Debug;
+		};
+		0BB544A51F5C06DF00844788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MajqFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajqFramework.app/MajqFramework";
+			};
+			name = Release;
+		};
+		0BB544A71F5C06DF00844788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MajqFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MajqFramework;
+			};
+			name = Debug;
+		};
+		0BB544A81F5C06DF00844788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MajqFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MajqFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB5446E1F5C06DF00844788 /* Build configuration list for PBXProject "MajqFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB5449E1F5C06DF00844788 /* Debug */,
+				0BB5449F1F5C06DF00844788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB544A01F5C06DF00844788 /* Build configuration list for PBXNativeTarget "MajqFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB544A11F5C06DF00844788 /* Debug */,
+				0BB544A21F5C06DF00844788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB544A31F5C06DF00844788 /* Build configuration list for PBXNativeTarget "MajqFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB544A41F5C06DF00844788 /* Debug */,
+				0BB544A51F5C06DF00844788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB544A61F5C06DF00844788 /* Build configuration list for PBXNativeTarget "MajqFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB544A71F5C06DF00844788 /* Debug */,
+				0BB544A81F5C06DF00844788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB5446B1F5C06DF00844788 /* Project object */;
+}

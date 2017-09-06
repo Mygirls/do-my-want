@@ -118,6 +118,18 @@ static CGFloat const kWMMenuViewHeight = 44.0;
 
 - (UIViewController *)pageController:(WMPageController *)pageController viewControllerAtIndex:(NSInteger)index {
     WMTableViewController *vc = [[WMTableViewController alloc] init];
+//    if (index == 0) {
+//        vc.numberRow = 100;
+//        
+//    } else if (index == 1) {
+//        vc.numberRow = 1;
+//
+//    } else {
+//        vc.numberRow = 100;
+//
+//    }
+    
+    
     return vc;
 }
 

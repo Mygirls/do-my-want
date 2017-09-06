@@ -31,14 +31,30 @@ static NSString *const kTablewCellIdentifier = @"kTablewCellIdentifier";
     // Dispose of any resources that can be recreated.
 }
 
+- (void)setNumberRow:(NSInteger)numberRow {
+
+    _numberRow = numberRow;
+    
+    
+    [self.tableView reloadData];
+    
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 100;
+    
+    if (self.numberRow == 0) {
+        return 100;
+    }
+    return self.numberRow;
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

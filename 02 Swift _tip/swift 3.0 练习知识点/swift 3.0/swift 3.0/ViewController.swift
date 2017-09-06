@@ -446,6 +446,16 @@ class SurveyQuestion {
     }
 }
 
+
+class A : SurveyQuestion {
+    
+    override init(text: String) {
+        
+    }
+}
+
+
+
 class Person  {
     var name: String!
     init(withName n: String) {

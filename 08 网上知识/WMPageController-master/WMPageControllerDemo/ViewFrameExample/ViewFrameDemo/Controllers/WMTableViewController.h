@@ -10,4 +10,6 @@
 
 @interface WMTableViewController : UITableViewController
 
+@property(nonatomic,assign) NSInteger numberRow;
+
 @end
