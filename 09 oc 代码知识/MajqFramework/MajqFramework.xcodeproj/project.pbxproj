@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B18D2D51F5FE44D0049E5B2 /* PHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2D41F5FE44D0049E5B2 /* PHBaseView.m */; };
+		0B18D2D81F5FE46F0049E5B2 /* PHGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2D71F5FE46F0049E5B2 /* PHGradientView.m */; };
+		0B18D2DB1F5FEC530049E5B2 /* PHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2DA1F5FEC530049E5B2 /* PHProgressView.m */; };
+		0B18D2DE1F5FF16B0049E5B2 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2DD1F5FF16B0049E5B2 /* UIViewExt.m */; };
+		0B18D2E21F601D3E0049E5B2 /* thumbImgView1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B18D2E01F601D3E0049E5B2 /* thumbImgView1@2x.png */; };
+		0B18D2E31F601D3E0049E5B2 /* thumbImgView1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B18D2E11F601D3E0049E5B2 /* thumbImgView1@3x.png */; };
+		0B18D2E71F602CED0049E5B2 /* PHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2E61F602CED0049E5B2 /* PHColor.m */; };
+		0B18D2EB1F6039CC0049E5B2 /* PHIconLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2EA1F6039CC0049E5B2 /* PHIconLabelView.m */; };
 		0BAFF1471F5C278D000AD1DB /* AFNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */; };
 		0BAFF14A1F5C2ABE000AD1DB /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF1491F5C2ABE000AD1DB /* APIManager.m */; };
 		0BB544781F5C06DF00844788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB544771F5C06DF00844788 /* main.m */; };
@@ -38,6 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B18D2D31F5FE44D0049E5B2 /* PHBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHBaseView.h; sourceTree = "<group>"; };
+		0B18D2D41F5FE44D0049E5B2 /* PHBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHBaseView.m; sourceTree = "<group>"; };
+		0B18D2D61F5FE46F0049E5B2 /* PHGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGradientView.h; sourceTree = "<group>"; };
+		0B18D2D71F5FE46F0049E5B2 /* PHGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGradientView.m; sourceTree = "<group>"; };
+		0B18D2D91F5FEC530049E5B2 /* PHProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHProgressView.h; sourceTree = "<group>"; };
+		0B18D2DA1F5FEC530049E5B2 /* PHProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHProgressView.m; sourceTree = "<group>"; };
+		0B18D2DD1F5FF16B0049E5B2 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		0B18D2DF1F5FF1780049E5B2 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		0B18D2E01F601D3E0049E5B2 /* thumbImgView1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbImgView1@2x.png"; sourceTree = "<group>"; };
+		0B18D2E11F601D3E0049E5B2 /* thumbImgView1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbImgView1@3x.png"; sourceTree = "<group>"; };
+		0B18D2E51F602CED0049E5B2 /* PHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHColor.h; sourceTree = "<group>"; };
+		0B18D2E61F602CED0049E5B2 /* PHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHColor.m; sourceTree = "<group>"; };
+		0B18D2E81F602D710049E5B2 /* PHColorConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHColorConfigure.h; sourceTree = "<group>"; };
+		0B18D2E91F6039CC0049E5B2 /* PHIconLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIconLabelView.h; sourceTree = "<group>"; };
+		0B18D2EA1F6039CC0049E5B2 /* PHIconLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIconLabelView.m; sourceTree = "<group>"; };
 		0BAFF1451F5C278D000AD1DB /* AFNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetRequest.h; sourceTree = "<group>"; };
 		0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetRequest.m; sourceTree = "<group>"; };
 		0BAFF1481F5C2ABE000AD1DB /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
@@ -89,6 +112,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B18D2D21F5FE4330049E5B2 /* PHUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B18D2E01F601D3E0049E5B2 /* thumbImgView1@2x.png */,
+				0B18D2E11F601D3E0049E5B2 /* thumbImgView1@3x.png */,
+				0B18D2D31F5FE44D0049E5B2 /* PHBaseView.h */,
+				0B18D2D41F5FE44D0049E5B2 /* PHBaseView.m */,
+				0B18D2D61F5FE46F0049E5B2 /* PHGradientView.h */,
+				0B18D2D71F5FE46F0049E5B2 /* PHGradientView.m */,
+				0B18D2D91F5FEC530049E5B2 /* PHProgressView.h */,
+				0B18D2DA1F5FEC530049E5B2 /* PHProgressView.m */,
+				0B18D2E91F6039CC0049E5B2 /* PHIconLabelView.h */,
+				0B18D2EA1F6039CC0049E5B2 /* PHIconLabelView.m */,
+			);
+			path = PHUIKit;
+			sourceTree = "<group>";
+		};
+		0B18D2DC1F5FF15C0049E5B2 /* PHVendor */ = {
+			isa = PBXGroup;
+			children = (
+				0B18D2DD1F5FF16B0049E5B2 /* UIViewExt.m */,
+				0B18D2DF1F5FF1780049E5B2 /* UIViewExt.h */,
+			);
+			path = PHVendor;
+			sourceTree = "<group>";
+		};
+		0B18D2E41F602CD50049E5B2 /* PHConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0B18D2E51F602CED0049E5B2 /* PHColor.h */,
+				0B18D2E61F602CED0049E5B2 /* PHColor.m */,
+				0B18D2E81F602D710049E5B2 /* PHColorConfigure.h */,
+			);
+			path = PHConfig;
+			sourceTree = "<group>";
+		};
 		0BB5446A1F5C06DF00844788 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +181,9 @@
 				0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */,
 				0BAFF1481F5C2ABE000AD1DB /* APIManager.h */,
 				0BAFF1491F5C2ABE000AD1DB /* APIManager.m */,
+				0B18D2E41F602CD50049E5B2 /* PHConfig */,
+				0B18D2DC1F5FF15C0049E5B2 /* PHVendor */,
+				0B18D2D21F5FE4330049E5B2 /* PHUIKit */,
 				0BB5447F1F5C06DF00844788 /* Main.storyboard */,
 				0BB544821F5C06DF00844788 /* Assets.xcassets */,
 				0BB544841F5C06DF00844788 /* LaunchScreen.storyboard */,
@@ -285,6 +347,8 @@
 			files = (
 				0BB544861F5C06DF00844788 /* LaunchScreen.storyboard in Resources */,
 				0BB544831F5C06DF00844788 /* Assets.xcassets in Resources */,
+				0B18D2E31F601D3E0049E5B2 /* thumbImgView1@3x.png in Resources */,
+				0B18D2E21F601D3E0049E5B2 /* thumbImgView1@2x.png in Resources */,
 				0BB544811F5C06DF00844788 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,10 +426,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BAFF1471F5C278D000AD1DB /* AFNetRequest.m in Sources */,
+				0B18D2D51F5FE44D0049E5B2 /* PHBaseView.m in Sources */,
 				0BB5447E1F5C06DF00844788 /* ViewController.m in Sources */,
+				0B18D2EB1F6039CC0049E5B2 /* PHIconLabelView.m in Sources */,
+				0B18D2DB1F5FEC530049E5B2 /* PHProgressView.m in Sources */,
+				0B18D2DE1F5FF16B0049E5B2 /* UIViewExt.m in Sources */,
+				0B18D2D81F5FE46F0049E5B2 /* PHGradientView.m in Sources */,
 				0BB5447B1F5C06DF00844788 /* AppDelegate.m in Sources */,
 				0BB544781F5C06DF00844788 /* main.m in Sources */,
 				0BAFF14A1F5C2ABE000AD1DB /* APIManager.m in Sources */,
+				0B18D2E71F602CED0049E5B2 /* PHColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,12 @@
 
 #import "ViewController.h"
 #import "AFNetRequest.h"
+
+#import "PHGradientView.h"
+#import "PHProgressView.h"
+
+#import "PHColorConfigure.h"
+
 @interface ViewController ()
 
 @end
@@ -19,12 +25,15 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self setUpConfig];
+    
+    CGSize size = [UIImage imageNamed:@"thumbImgView33"].size;
+    
 }
 
 
 - (void)setUpConfig {
 
-    self.view.backgroundColor = [UIColor orangeColor];
+    
     
     
     NSMutableDictionary * params = [[NSMutableDictionary alloc] init];
@@ -34,6 +43,23 @@
         
         NSLog(@"result = %@",result);
     }];
+    
+    
+//    PHGradientView *g = [[PHGradientView alloc]initWithFrame:CGRectMake(30, 30, 200, 300)];
+//    g.gradientcolor = [UIColor redColor];
+//    [self.view addSubview:g];
+//    [g drawGradient];
+    
+  
+    
+    PHProgressView *p = [[PHProgressView alloc]initWithFrame:CGRectMake(30, 300, 200, 26)];
+//    p.backgroundColor = [UIColor grayColor];
+    [self.view addSubview: p];
+    p.progressPercentage = 0.5;
+    p.progressHeight = 5;
+    p.progressViewType = ProgressViewNotAllGradient;
+    [p progressShow];
+    
 
 }
 
