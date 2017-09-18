@@ -2,6 +2,15 @@
 
 import UIKit
 
+var AAAA: [String: String] = ["YYZ": "Toronto1 Pearson", "DUB": "Dublin"]
+var BBBB: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+
+if AAAA == BBBB {
+    print("---------------------")
+}
+
+
+
 var str = "swift 3.0"
 
 var s1: String = "Hello"

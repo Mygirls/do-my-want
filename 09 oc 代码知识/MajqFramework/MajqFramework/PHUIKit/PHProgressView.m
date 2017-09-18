@@ -64,31 +64,36 @@
 
 - (void)progressViewIsGradient
 {
-    self.gradientView.frame = CGRectMake(0, (self.height - self.progressHeight) * 0.5, self.width, self.progressHeight );
+    CGSize imgSize =  self.currentThumbImg.size;
+    CGFloat realWidth = self.width - imgSize.width;
+    
+    self.gradientView.frame = CGRectMake(imgSize.width * 0.5, (self.height - self.progressHeight) * 0.5, realWidth, self.progressHeight );
     if (self.progressColors.count > 0) {
         self.gradientView.gradientcolors = self.progressColors;
         
     }
     [self.gradientView drawGradient];
     
-    self.thumbImgView.frame = CGRectMake(self.width * self.progressPercentage, 0, self.height, self.height );
+    self.thumbImgView.frame = CGRectMake(realWidth * self.progressPercentage, 0, self.height, self.height );
     self.thumbImgView.image = self.currentThumbImg;
 
 }
 
 - (void)progressProgressNotAllGradient
 {
-    self.progressBgView.frame = CGRectMake(0, (self.height - self.progressHeight) * 0.5, self.width, self.progressHeight );
+    CGSize imgSize =  self.currentThumbImg.size;
+    CGFloat realWidth = self.width - imgSize.width;
+    
+    self.progressBgView.frame = CGRectMake(imgSize.width * 0.5, (self.height - self.progressHeight) * 0.5, realWidth , self.progressHeight );
     self.progressBgView.hidden = NO;
     
-    self.gradientView.frame = CGRectMake(0, (self.height - self.progressHeight) * 0.5, self.width * self.progressPercentage, self.progressHeight );
+    self.gradientView.frame = CGRectMake(imgSize.width * 0.5, (self.height - self.progressHeight) * 0.5, realWidth * self.progressPercentage, self.progressHeight );
     if (self.progressColors.count > 0) {
         self.gradientView.gradientcolors = self.progressColors;
     }
     [self.gradientView drawGradient];
     
-    CGSize imgSize =  self.currentThumbImg.size;
-    self.thumbImgView.frame = CGRectMake(self.gradientView.width - imgSize.width * 0.5, 0, self.height, self.height );
+    self.thumbImgView.frame = CGRectMake(self.gradientView.right - imgSize.width * 0.5 , 0, self.height, self.height );
     self.thumbImgView.image = self.currentThumbImg;
     
 

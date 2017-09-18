@@ -10,6 +10,12 @@
 #define GradientColor_defalut1 [UIColor colorWithRed:249/255.0 green:138/255.0 blue:83/255.0 alpha:1]
 #define GradientColor_defalut2 [UIColor colorWithRed:255/255.0 green:73/255.0 blue:37/255.0 alpha:1]
 
+@interface PHGradientView ()
+
+@property(nonatomic,strong)NSArray *defaultGradientcolors;
+@end
+
+
 @implementation PHGradientView
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -17,7 +23,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        _gradientcolors = @[(__bridge id)GradientColor_defalut1.CGColor,(__bridge id)GradientColor_defalut2.CGColor];
+        _defaultGradientcolors = @[(__bridge id)GradientColor_defalut1.CGColor,(__bridge id)GradientColor_defalut2.CGColor];
+  
         _startPoint = CGPointMake(0, 0.5);
         _endPoint = CGPointMake(1, 0.5) ;
         
@@ -51,7 +58,17 @@
      */
     CAGradientLayer *layer = [CAGradientLayer new];
     //colors存放渐变的颜色的数组 @[(__bridge id)GradientColor_defalut1.CGColor,(__bridge id)GradientColor_defalut2.CGColor]
-    layer.colors = self.gradientcolors;
+  
+    if (self.gradientcolors.count == 0) {
+        layer.colors = self.defaultGradientcolors;
+        
+    } else if (self.gradientcolors.count == 1) {
+        layer.colors = self.defaultGradientcolors;
+        
+    } else {
+        layer.colors = self.gradientcolors;
+
+    }
     /**
      * 起点和终点表示的坐标系位置，(0,0)表示左上角，(1,1)表示右下角
      */

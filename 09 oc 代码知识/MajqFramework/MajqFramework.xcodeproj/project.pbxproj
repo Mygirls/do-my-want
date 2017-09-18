@@ -15,6 +15,8 @@
 		0B18D2E31F601D3E0049E5B2 /* thumbImgView1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B18D2E11F601D3E0049E5B2 /* thumbImgView1@3x.png */; };
 		0B18D2E71F602CED0049E5B2 /* PHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2E61F602CED0049E5B2 /* PHColor.m */; };
 		0B18D2EB1F6039CC0049E5B2 /* PHIconLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D2EA1F6039CC0049E5B2 /* PHIconLabelView.m */; };
+		0B30FF261F62DF950074C430 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B30FF251F62DF950074C430 /* A.m */; };
+		0B30FF291F62E50B0074C430 /* Automobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B30FF281F62E50B0074C430 /* Automobile.m */; };
 		0BAFF1471F5C278D000AD1DB /* AFNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */; };
 		0BAFF14A1F5C2ABE000AD1DB /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF1491F5C2ABE000AD1DB /* APIManager.m */; };
 		0BB544781F5C06DF00844788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB544771F5C06DF00844788 /* main.m */; };
@@ -61,6 +63,10 @@
 		0B18D2E81F602D710049E5B2 /* PHColorConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHColorConfigure.h; sourceTree = "<group>"; };
 		0B18D2E91F6039CC0049E5B2 /* PHIconLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIconLabelView.h; sourceTree = "<group>"; };
 		0B18D2EA1F6039CC0049E5B2 /* PHIconLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIconLabelView.m; sourceTree = "<group>"; };
+		0B30FF241F62DF950074C430 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		0B30FF251F62DF950074C430 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		0B30FF271F62E50B0074C430 /* Automobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Automobile.h; sourceTree = "<group>"; };
+		0B30FF281F62E50B0074C430 /* Automobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Automobile.m; sourceTree = "<group>"; };
 		0BAFF1451F5C278D000AD1DB /* AFNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetRequest.h; sourceTree = "<group>"; };
 		0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetRequest.m; sourceTree = "<group>"; };
 		0BAFF1481F5C2ABE000AD1DB /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
@@ -177,6 +183,10 @@
 				0BB5447A1F5C06DF00844788 /* AppDelegate.m */,
 				0BB5447C1F5C06DF00844788 /* ViewController.h */,
 				0BB5447D1F5C06DF00844788 /* ViewController.m */,
+				0B30FF271F62E50B0074C430 /* Automobile.h */,
+				0B30FF281F62E50B0074C430 /* Automobile.m */,
+				0B30FF241F62DF950074C430 /* A.h */,
+				0B30FF251F62DF950074C430 /* A.m */,
 				0BAFF1451F5C278D000AD1DB /* AFNetRequest.h */,
 				0BAFF1461F5C278D000AD1DB /* AFNetRequest.m */,
 				0BAFF1481F5C2ABE000AD1DB /* APIManager.h */,
@@ -302,7 +312,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = majq;
+				ORGANIZATIONNAME = cfzq;
 				TargetAttributes = {
 					0BB544721F5C06DF00844788 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -428,6 +438,8 @@
 				0BAFF1471F5C278D000AD1DB /* AFNetRequest.m in Sources */,
 				0B18D2D51F5FE44D0049E5B2 /* PHBaseView.m in Sources */,
 				0BB5447E1F5C06DF00844788 /* ViewController.m in Sources */,
+				0B30FF261F62DF950074C430 /* A.m in Sources */,
+				0B30FF291F62E50B0074C430 /* Automobile.m in Sources */,
 				0B18D2EB1F6039CC0049E5B2 /* PHIconLabelView.m in Sources */,
 				0B18D2DB1F5FEC530049E5B2 /* PHProgressView.m in Sources */,
 				0B18D2DE1F5FF16B0049E5B2 /* UIViewExt.m in Sources */,

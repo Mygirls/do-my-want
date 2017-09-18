@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B22D6401F6D2EFD006245EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D63F1F6D2EFD006245EF /* main.m */; };
+		0B22D6431F6D2EFD006245EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6421F6D2EFD006245EF /* AppDelegate.m */; };
+		0B22D6461F6D2EFD006245EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6451F6D2EFD006245EF /* ViewController.m */; };
+		0B22D6491F6D2EFD006245EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B22D6471F6D2EFD006245EF /* Main.storyboard */; };
+		0B22D64B1F6D2EFD006245EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B22D64A1F6D2EFD006245EF /* Assets.xcassets */; };
+		0B22D64E1F6D2EFD006245EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B22D64C1F6D2EFD006245EF /* LaunchScreen.storyboard */; };
+		0B22D6591F6D2EFE006245EF /* MajqPageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6581F6D2EFE006245EF /* MajqPageViewTests.m */; };
+		0B22D6641F6D2EFE006245EF /* MajqPageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6631F6D2EFE006245EF /* MajqPageViewUITests.m */; };
+		0B22D6731F6D2F5C006245EF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6721F6D2F5C006245EF /* FirstViewController.m */; };
+		0B22D6761F6D2F74006245EF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6751F6D2F74006245EF /* SecondViewController.m */; };
+		0B22D6791F6D2F94006245EF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6781F6D2F94006245EF /* ThirdViewController.m */; };
+		0B22D67C1F6D3416006245EF /* MajqPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D67B1F6D3416006245EF /* MajqPageScrollView.m */; };
+		0B22D67F1F6D5AD1006245EF /* MajqTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D67E1F6D5AD1006245EF /* MajqTableView.m */; };
+		0B22D6821F6D769F006245EF /* MajqBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22D6811F6D769F006245EF /* MajqBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B22D6551F6D2EFE006245EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B22D6331F6D2EFD006245EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B22D63A1F6D2EFD006245EF;
+			remoteInfo = MajqPageView;
+		};
+		0B22D6601F6D2EFE006245EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B22D6331F6D2EFD006245EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B22D63A1F6D2EFD006245EF;
+			remoteInfo = MajqPageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B22D63B1F6D2EFD006245EF /* MajqPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MajqPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22D63F1F6D2EFD006245EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B22D6411F6D2EFD006245EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B22D6421F6D2EFD006245EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B22D6441F6D2EFD006245EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B22D6451F6D2EFD006245EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B22D6481F6D2EFD006245EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B22D64A1F6D2EFD006245EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B22D64D1F6D2EFD006245EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B22D64F1F6D2EFD006245EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B22D6541F6D2EFE006245EF /* MajqPageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajqPageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22D6581F6D2EFE006245EF /* MajqPageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajqPageViewTests.m; sourceTree = "<group>"; };
+		0B22D65A1F6D2EFE006245EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B22D65F1F6D2EFE006245EF /* MajqPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajqPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22D6631F6D2EFE006245EF /* MajqPageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajqPageViewUITests.m; sourceTree = "<group>"; };
+		0B22D6651F6D2EFE006245EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B22D6711F6D2F5C006245EF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0B22D6721F6D2F5C006245EF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0B22D6741F6D2F74006245EF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0B22D6751F6D2F74006245EF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0B22D6771F6D2F94006245EF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0B22D6781F6D2F94006245EF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0B22D67A1F6D3416006245EF /* MajqPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajqPageScrollView.h; sourceTree = "<group>"; };
+		0B22D67B1F6D3416006245EF /* MajqPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajqPageScrollView.m; sourceTree = "<group>"; };
+		0B22D67D1F6D5AD1006245EF /* MajqTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajqTableView.h; sourceTree = "<group>"; };
+		0B22D67E1F6D5AD1006245EF /* MajqTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajqTableView.m; sourceTree = "<group>"; };
+		0B22D6801F6D769F006245EF /* MajqBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajqBaseViewController.h; sourceTree = "<group>"; };
+		0B22D6811F6D769F006245EF /* MajqBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajqBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B22D6381F6D2EFD006245EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22D6511F6D2EFE006245EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22D65C1F6D2EFE006245EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B22D6321F6D2EFD006245EF = {
+			isa = PBXGroup;
+			children = (
+				0B22D63D1F6D2EFD006245EF /* MajqPageView */,
+				0B22D6571F6D2EFE006245EF /* MajqPageViewTests */,
+				0B22D6621F6D2EFE006245EF /* MajqPageViewUITests */,
+				0B22D63C1F6D2EFD006245EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B22D63C1F6D2EFD006245EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B22D63B1F6D2EFD006245EF /* MajqPageView.app */,
+				0B22D6541F6D2EFE006245EF /* MajqPageViewTests.xctest */,
+				0B22D65F1F6D2EFE006245EF /* MajqPageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B22D63D1F6D2EFD006245EF /* MajqPageView */ = {
+			isa = PBXGroup;
+			children = (
+				0B22D6411F6D2EFD006245EF /* AppDelegate.h */,
+				0B22D6421F6D2EFD006245EF /* AppDelegate.m */,
+				0B22D6441F6D2EFD006245EF /* ViewController.h */,
+				0B22D6451F6D2EFD006245EF /* ViewController.m */,
+				0B22D6801F6D769F006245EF /* MajqBaseViewController.h */,
+				0B22D6811F6D769F006245EF /* MajqBaseViewController.m */,
+				0B22D67D1F6D5AD1006245EF /* MajqTableView.h */,
+				0B22D67E1F6D5AD1006245EF /* MajqTableView.m */,
+				0B22D67A1F6D3416006245EF /* MajqPageScrollView.h */,
+				0B22D67B1F6D3416006245EF /* MajqPageScrollView.m */,
+				0B22D6711F6D2F5C006245EF /* FirstViewController.h */,
+				0B22D6721F6D2F5C006245EF /* FirstViewController.m */,
+				0B22D6741F6D2F74006245EF /* SecondViewController.h */,
+				0B22D6751F6D2F74006245EF /* SecondViewController.m */,
+				0B22D6771F6D2F94006245EF /* ThirdViewController.h */,
+				0B22D6781F6D2F94006245EF /* ThirdViewController.m */,
+				0B22D6471F6D2EFD006245EF /* Main.storyboard */,
+				0B22D64A1F6D2EFD006245EF /* Assets.xcassets */,
+				0B22D64C1F6D2EFD006245EF /* LaunchScreen.storyboard */,
+				0B22D64F1F6D2EFD006245EF /* Info.plist */,
+				0B22D63E1F6D2EFD006245EF /* Supporting Files */,
+			);
+			path = MajqPageView;
+			sourceTree = "<group>";
+		};
+		0B22D63E1F6D2EFD006245EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B22D63F1F6D2EFD006245EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B22D6571F6D2EFE006245EF /* MajqPageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B22D6581F6D2EFE006245EF /* MajqPageViewTests.m */,
+				0B22D65A1F6D2EFE006245EF /* Info.plist */,
+			);
+			path = MajqPageViewTests;
+			sourceTree = "<group>";
+		};
+		0B22D6621F6D2EFE006245EF /* MajqPageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B22D6631F6D2EFE006245EF /* MajqPageViewUITests.m */,
+				0B22D6651F6D2EFE006245EF /* Info.plist */,
+			);
+			path = MajqPageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B22D63A1F6D2EFD006245EF /* MajqPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B22D6681F6D2EFE006245EF /* Build configuration list for PBXNativeTarget "MajqPageView" */;
+			buildPhases = (
+				0B22D6371F6D2EFD006245EF /* Sources */,
+				0B22D6381F6D2EFD006245EF /* Frameworks */,
+				0B22D6391F6D2EFD006245EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MajqPageView;
+			productName = MajqPageView;
+			productReference = 0B22D63B1F6D2EFD006245EF /* MajqPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B22D6531F6D2EFE006245EF /* MajqPageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B22D66B1F6D2EFE006245EF /* Build configuration list for PBXNativeTarget "MajqPageViewTests" */;
+			buildPhases = (
+				0B22D6501F6D2EFE006245EF /* Sources */,
+				0B22D6511F6D2EFE006245EF /* Frameworks */,
+				0B22D6521F6D2EFE006245EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B22D6561F6D2EFE006245EF /* PBXTargetDependency */,
+			);
+			name = MajqPageViewTests;
+			productName = MajqPageViewTests;
+			productReference = 0B22D6541F6D2EFE006245EF /* MajqPageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B22D65E1F6D2EFE006245EF /* MajqPageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B22D66E1F6D2EFE006245EF /* Build configuration list for PBXNativeTarget "MajqPageViewUITests" */;
+			buildPhases = (
+				0B22D65B1F6D2EFE006245EF /* Sources */,
+				0B22D65C1F6D2EFE006245EF /* Frameworks */,
+				0B22D65D1F6D2EFE006245EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B22D6611F6D2EFE006245EF /* PBXTargetDependency */,
+			);
+			name = MajqPageViewUITests;
+			productName = MajqPageViewUITests;
+			productReference = 0B22D65F1F6D2EFE006245EF /* MajqPageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B22D6331F6D2EFD006245EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Majq;
+				TargetAttributes = {
+					0B22D63A1F6D2EFD006245EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RZ6WBQL87R;
+						ProvisioningStyle = Automatic;
+					};
+					0B22D6531F6D2EFE006245EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RZ6WBQL87R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B22D63A1F6D2EFD006245EF;
+					};
+					0B22D65E1F6D2EFE006245EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RZ6WBQL87R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B22D63A1F6D2EFD006245EF;
+					};
+				};
+			};
+			buildConfigurationList = 0B22D6361F6D2EFD006245EF /* Build configuration list for PBXProject "MajqPageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B22D6321F6D2EFD006245EF;
+			productRefGroup = 0B22D63C1F6D2EFD006245EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B22D63A1F6D2EFD006245EF /* MajqPageView */,
+				0B22D6531F6D2EFE006245EF /* MajqPageViewTests */,
+				0B22D65E1F6D2EFE006245EF /* MajqPageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B22D6391F6D2EFD006245EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22D64E1F6D2EFD006245EF /* LaunchScreen.storyboard in Resources */,
+				0B22D64B1F6D2EFD006245EF /* Assets.xcassets in Resources */,
+				0B22D6491F6D2EFD006245EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22D6521F6D2EFE006245EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22D65D1F6D2EFE006245EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B22D6371F6D2EFD006245EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22D6761F6D2F74006245EF /* SecondViewController.m in Sources */,
+				0B22D6461F6D2EFD006245EF /* ViewController.m in Sources */,
+				0B22D6791F6D2F94006245EF /* ThirdViewController.m in Sources */,
+				0B22D6431F6D2EFD006245EF /* AppDelegate.m in Sources */,
+				0B22D6401F6D2EFD006245EF /* main.m in Sources */,
+				0B22D6731F6D2F5C006245EF /* FirstViewController.m in Sources */,
+				0B22D6821F6D769F006245EF /* MajqBaseViewController.m in Sources */,
+				0B22D67F1F6D5AD1006245EF /* MajqTableView.m in Sources */,
+				0B22D67C1F6D3416006245EF /* MajqPageScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22D6501F6D2EFE006245EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22D6591F6D2EFE006245EF /* MajqPageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22D65B1F6D2EFE006245EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22D6641F6D2EFE006245EF /* MajqPageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B22D6561F6D2EFE006245EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B22D63A1F6D2EFD006245EF /* MajqPageView */;
+			targetProxy = 0B22D6551F6D2EFE006245EF /* PBXContainerItemProxy */;
+		};
+		0B22D6611F6D2EFE006245EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B22D63A1F6D2EFD006245EF /* MajqPageView */;
+			targetProxy = 0B22D6601F6D2EFE006245EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B22D6471F6D2EFD006245EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B22D6481F6D2EFD006245EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B22D64C1F6D2EFD006245EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B22D64D1F6D2EFD006245EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B22D6661F6D2EFE006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B22D6671F6D2EFE006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B22D6691F6D2EFE006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = MajqPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B22D66A1F6D2EFE006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = MajqPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B22D66C1F6D2EFE006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = MajqPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajqPageView.app/MajqPageView";
+			};
+			name = Debug;
+		};
+		0B22D66D1F6D2EFE006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = MajqPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajqPageView.app/MajqPageView";
+			};
+			name = Release;
+		};
+		0B22D66F1F6D2EFE006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = MajqPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MajqPageView;
+			};
+			name = Debug;
+		};
+		0B22D6701F6D2EFE006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				INFOPLIST_FILE = MajqPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Majq.MajqPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MajqPageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B22D6361F6D2EFD006245EF /* Build configuration list for PBXProject "MajqPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22D6661F6D2EFE006245EF /* Debug */,
+				0B22D6671F6D2EFE006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B22D6681F6D2EFE006245EF /* Build configuration list for PBXNativeTarget "MajqPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22D6691F6D2EFE006245EF /* Debug */,
+				0B22D66A1F6D2EFE006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B22D66B1F6D2EFE006245EF /* Build configuration list for PBXNativeTarget "MajqPageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22D66C1F6D2EFE006245EF /* Debug */,
+				0B22D66D1F6D2EFE006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B22D66E1F6D2EFE006245EF /* Build configuration list for PBXNativeTarget "MajqPageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22D66F1F6D2EFE006245EF /* Debug */,
+				0B22D6701F6D2EFE006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B22D6331F6D2EFD006245EF /* Project object */;
+}

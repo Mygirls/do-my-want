@@ -8,8 +8,8 @@
 
 #import "FirstViewController.h"
 
-@interface FirstViewController ()
-
+@interface FirstViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)UITableView *tableView;
 @end
 
 @implementation FirstViewController
@@ -19,11 +19,34 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor orangeColor];
     
+   
+    _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 414, 500) style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    [self.view addSubview:_tableView];
+    
     UIView *v = [[UIView alloc] initWithFrame:CGRectMake(100, 20,50, 50)];
     v.backgroundColor = [UIColor grayColor];
     [self.view addSubview:v];
     
 
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 100;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellId = @"";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "WMPageController.h"
 
-static CGFloat const kWMHeaderViewHeight = 125;
+static CGFloat const kWMHeaderViewHeight = 725;
 static CGFloat const kNavigationBarHeight = 64;
 
 @interface ViewController : WMPageController

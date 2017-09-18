@@ -212,7 +212,7 @@
 				TargetAttributes = {
 					0B18D2981F5FCF090049E5B2 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = RZ6WBQL87R;
+						DevelopmentTeam = F3N2FB76F6;
 						ProvisioningStyle = Automatic;
 					};
 					0B18D2B11F5FCF090049E5B2 = {
@@ -380,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -423,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,11 +435,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F3N2FB76F6;
 				INFOPLIST_FILE = UIShadeProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Majq.UIShadeProgressView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didai.phjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -447,11 +449,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F3N2FB76F6;
 				INFOPLIST_FILE = UIShadeProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Majq.UIShadeProgressView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didai.phjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -524,6 +528,7 @@
 				0B18D2C81F5FCF090049E5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B18D2C91F5FCF090049E5B2 /* Build configuration list for PBXNativeTarget "UIShadeProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				0B18D2CB1F5FCF090049E5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B18D2CC1F5FCF090049E5B2 /* Build configuration list for PBXNativeTarget "UIShadeProgressViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				0B18D2CE1F5FCF090049E5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
