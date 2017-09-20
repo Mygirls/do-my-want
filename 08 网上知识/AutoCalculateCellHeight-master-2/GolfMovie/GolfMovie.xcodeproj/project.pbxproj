@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BCFF7A41CDC745E0003F572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFF7A31CDC745E0003F572 /* main.m */; };
+		0BCFF7A71CDC745E0003F572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFF7A61CDC745E0003F572 /* AppDelegate.m */; };
+		0BCFF7AA1CDC745E0003F572 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFF7A91CDC745E0003F572 /* ViewController.m */; };
+		0BCFF7AD1CDC745E0003F572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCFF7AB1CDC745E0003F572 /* Main.storyboard */; };
+		0BCFF7AF1CDC745E0003F572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCFF7AE1CDC745E0003F572 /* Assets.xcassets */; };
+		0BCFF7B21CDC745E0003F572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCFF7B01CDC745E0003F572 /* LaunchScreen.storyboard */; };
+		0BCFF7BD1CDC745E0003F572 /* GolfMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFF7BC1CDC745E0003F572 /* GolfMovieTests.m */; };
+		0BCFF7C81CDC745E0003F572 /* GolfMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFF7C71CDC745E0003F572 /* GolfMovieUITests.m */; };
+		0BCFF7D61CDC74930003F572 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BCFF7D51CDC74930003F572 /* 2.png */; };
+		0BCFF7DB1CDC83860003F572 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFF7DA1CDC83860003F572 /* PlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BCFF7B91CDC745E0003F572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BCFF7971CDC745E0003F572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BCFF79E1CDC745E0003F572;
+			remoteInfo = GolfMovie;
+		};
+		0BCFF7C41CDC745E0003F572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BCFF7971CDC745E0003F572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BCFF79E1CDC745E0003F572;
+			remoteInfo = GolfMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BCFF79F1CDC745E0003F572 /* GolfMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCFF7A31CDC745E0003F572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BCFF7A51CDC745E0003F572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BCFF7A61CDC745E0003F572 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BCFF7A81CDC745E0003F572 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BCFF7A91CDC745E0003F572 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BCFF7AC1CDC745E0003F572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BCFF7AE1CDC745E0003F572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BCFF7B11CDC745E0003F572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BCFF7B31CDC745E0003F572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCFF7B81CDC745E0003F572 /* GolfMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCFF7BC1CDC745E0003F572 /* GolfMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfMovieTests.m; sourceTree = "<group>"; };
+		0BCFF7BE1CDC745E0003F572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCFF7C31CDC745E0003F572 /* GolfMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCFF7C71CDC745E0003F572 /* GolfMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfMovieUITests.m; sourceTree = "<group>"; };
+		0BCFF7C91CDC745E0003F572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCFF7D51CDC74930003F572 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0BCFF7D91CDC83850003F572 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		0BCFF7DA1CDC83860003F572 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BCFF79C1CDC745E0003F572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCFF7B51CDC745E0003F572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCFF7C01CDC745E0003F572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BCFF7961CDC745E0003F572 = {
+			isa = PBXGroup;
+			children = (
+				0BCFF7A11CDC745E0003F572 /* GolfMovie */,
+				0BCFF7BB1CDC745E0003F572 /* GolfMovieTests */,
+				0BCFF7C61CDC745E0003F572 /* GolfMovieUITests */,
+				0BCFF7A01CDC745E0003F572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BCFF7A01CDC745E0003F572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BCFF79F1CDC745E0003F572 /* GolfMovie.app */,
+				0BCFF7B81CDC745E0003F572 /* GolfMovieTests.xctest */,
+				0BCFF7C31CDC745E0003F572 /* GolfMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BCFF7A11CDC745E0003F572 /* GolfMovie */ = {
+			isa = PBXGroup;
+			children = (
+				0BCFF7D51CDC74930003F572 /* 2.png */,
+				0BCFF7A51CDC745E0003F572 /* AppDelegate.h */,
+				0BCFF7A61CDC745E0003F572 /* AppDelegate.m */,
+				0BCFF7A81CDC745E0003F572 /* ViewController.h */,
+				0BCFF7A91CDC745E0003F572 /* ViewController.m */,
+				0BCFF7D91CDC83850003F572 /* PlayerView.h */,
+				0BCFF7DA1CDC83860003F572 /* PlayerView.m */,
+				0BCFF7AB1CDC745E0003F572 /* Main.storyboard */,
+				0BCFF7AE1CDC745E0003F572 /* Assets.xcassets */,
+				0BCFF7B01CDC745E0003F572 /* LaunchScreen.storyboard */,
+				0BCFF7B31CDC745E0003F572 /* Info.plist */,
+				0BCFF7A21CDC745E0003F572 /* Supporting Files */,
+			);
+			path = GolfMovie;
+			sourceTree = "<group>";
+		};
+		0BCFF7A21CDC745E0003F572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BCFF7A31CDC745E0003F572 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BCFF7BB1CDC745E0003F572 /* GolfMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BCFF7BC1CDC745E0003F572 /* GolfMovieTests.m */,
+				0BCFF7BE1CDC745E0003F572 /* Info.plist */,
+			);
+			path = GolfMovieTests;
+			sourceTree = "<group>";
+		};
+		0BCFF7C61CDC745E0003F572 /* GolfMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BCFF7C71CDC745E0003F572 /* GolfMovieUITests.m */,
+				0BCFF7C91CDC745E0003F572 /* Info.plist */,
+			);
+			path = GolfMovieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BCFF79E1CDC745E0003F572 /* GolfMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCFF7CC1CDC745E0003F572 /* Build configuration list for PBXNativeTarget "GolfMovie" */;
+			buildPhases = (
+				0BCFF79B1CDC745E0003F572 /* Sources */,
+				0BCFF79C1CDC745E0003F572 /* Frameworks */,
+				0BCFF79D1CDC745E0003F572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfMovie;
+			productName = GolfMovie;
+			productReference = 0BCFF79F1CDC745E0003F572 /* GolfMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BCFF7B71CDC745E0003F572 /* GolfMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCFF7CF1CDC745E0003F572 /* Build configuration list for PBXNativeTarget "GolfMovieTests" */;
+			buildPhases = (
+				0BCFF7B41CDC745E0003F572 /* Sources */,
+				0BCFF7B51CDC745E0003F572 /* Frameworks */,
+				0BCFF7B61CDC745E0003F572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BCFF7BA1CDC745E0003F572 /* PBXTargetDependency */,
+			);
+			name = GolfMovieTests;
+			productName = GolfMovieTests;
+			productReference = 0BCFF7B81CDC745E0003F572 /* GolfMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BCFF7C21CDC745E0003F572 /* GolfMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCFF7D21CDC745E0003F572 /* Build configuration list for PBXNativeTarget "GolfMovieUITests" */;
+			buildPhases = (
+				0BCFF7BF1CDC745E0003F572 /* Sources */,
+				0BCFF7C01CDC745E0003F572 /* Frameworks */,
+				0BCFF7C11CDC745E0003F572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BCFF7C51CDC745E0003F572 /* PBXTargetDependency */,
+			);
+			name = GolfMovieUITests;
+			productName = GolfMovieUITests;
+			productReference = 0BCFF7C31CDC745E0003F572 /* GolfMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BCFF7971CDC745E0003F572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = czbk;
+				TargetAttributes = {
+					0BCFF79E1CDC745E0003F572 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					0BCFF7B71CDC745E0003F572 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0BCFF79E1CDC745E0003F572;
+					};
+					0BCFF7C21CDC745E0003F572 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0BCFF79E1CDC745E0003F572;
+					};
+				};
+			};
+			buildConfigurationList = 0BCFF79A1CDC745E0003F572 /* Build configuration list for PBXProject "GolfMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BCFF7961CDC745E0003F572;
+			productRefGroup = 0BCFF7A01CDC745E0003F572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BCFF79E1CDC745E0003F572 /* GolfMovie */,
+				0BCFF7B71CDC745E0003F572 /* GolfMovieTests */,
+				0BCFF7C21CDC745E0003F572 /* GolfMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BCFF79D1CDC745E0003F572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCFF7B21CDC745E0003F572 /* LaunchScreen.storyboard in Resources */,
+				0BCFF7AF1CDC745E0003F572 /* Assets.xcassets in Resources */,
+				0BCFF7D61CDC74930003F572 /* 2.png in Resources */,
+				0BCFF7AD1CDC745E0003F572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCFF7B61CDC745E0003F572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCFF7C11CDC745E0003F572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BCFF79B1CDC745E0003F572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCFF7AA1CDC745E0003F572 /* ViewController.m in Sources */,
+				0BCFF7A71CDC745E0003F572 /* AppDelegate.m in Sources */,
+				0BCFF7A41CDC745E0003F572 /* main.m in Sources */,
+				0BCFF7DB1CDC83860003F572 /* PlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCFF7B41CDC745E0003F572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCFF7BD1CDC745E0003F572 /* GolfMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCFF7BF1CDC745E0003F572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCFF7C81CDC745E0003F572 /* GolfMovieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BCFF7BA1CDC745E0003F572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BCFF79E1CDC745E0003F572 /* GolfMovie */;
+			targetProxy = 0BCFF7B91CDC745E0003F572 /* PBXContainerItemProxy */;
+		};
+		0BCFF7C51CDC745E0003F572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BCFF79E1CDC745E0003F572 /* GolfMovie */;
+			targetProxy = 0BCFF7C41CDC745E0003F572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BCFF7AB1CDC745E0003F572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BCFF7AC1CDC745E0003F572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BCFF7B01CDC745E0003F572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BCFF7B11CDC745E0003F572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BCFF7CA1CDC745E0003F572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BCFF7CB1CDC745E0003F572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BCFF7CD1CDC745E0003F572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GolfMovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai.GolfMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BCFF7CE1CDC745E0003F572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GolfMovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai.GolfMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0BCFF7D01CDC745E0003F572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GolfMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai.GolfMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfMovie.app/GolfMovie";
+			};
+			name = Debug;
+		};
+		0BCFF7D11CDC745E0003F572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GolfMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai.GolfMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfMovie.app/GolfMovie";
+			};
+			name = Release;
+		};
+		0BCFF7D31CDC745E0003F572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GolfMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai.GolfMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GolfMovie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0BCFF7D41CDC745E0003F572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GolfMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiyimao.bai.GolfMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GolfMovie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BCFF79A1CDC745E0003F572 /* Build configuration list for PBXProject "GolfMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCFF7CA1CDC745E0003F572 /* Debug */,
+				0BCFF7CB1CDC745E0003F572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BCFF7CC1CDC745E0003F572 /* Build configuration list for PBXNativeTarget "GolfMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCFF7CD1CDC745E0003F572 /* Debug */,
+				0BCFF7CE1CDC745E0003F572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BCFF7CF1CDC745E0003F572 /* Build configuration list for PBXNativeTarget "GolfMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCFF7D01CDC745E0003F572 /* Debug */,
+				0BCFF7D11CDC745E0003F572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BCFF7D21CDC745E0003F572 /* Build configuration list for PBXNativeTarget "GolfMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCFF7D31CDC745E0003F572 /* Debug */,
+				0BCFF7D41CDC745E0003F572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BCFF7971CDC745E0003F572 /* Project object */;
+}

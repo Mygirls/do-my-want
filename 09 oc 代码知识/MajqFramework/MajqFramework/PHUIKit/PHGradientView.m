@@ -70,7 +70,7 @@
 
     }
     /**
-     * 起点和终点表示的坐标系位置，(0,0)表示左上角，(1,1)表示右下角
+     * 起点和终点表示的坐标系位置，(0,0)表示左上角，(1,1)表示右上角
      */
     layer.startPoint = self.startPoint;
     layer.endPoint = self.endPoint;
@@ -121,6 +121,7 @@
     
     //释放颜色空间
     CGColorSpaceRelease(colorSpace);
+    
 }
 
 
