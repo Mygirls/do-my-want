@@ -112,6 +112,73 @@
 
  */
 
+/**
+ 这个函数使用当前CPU架构实现的标准的C调用约定。第一个参数是指向self的指针(如果是实例方法，则是类实例的内存地址；如果是类方法，则是指向元类的指针)，第二个参数是方法选择器(selector)，接下来是方法的实际参数列表。
+ 
+ 前面介绍过的SEL就是为了查找方法的最终实现IMP的。由于每个方法对应唯一的SEL，因此我们可以通过SEL方便快速准确地获得它所对应的IMP，查找过程将在下面讨论。取得IMP后，我们就获得了执行这个方法代码的入口点，此时，我们就可以像调用普通的C语言函数一样来使用这个函数指针了。
+ 
+ 通过取得IMP，我们可以跳过Runtime的消息传递机制，直接执行IMP指向的函数实现，这样省去了Runtime消息传递过程中所做的一系列查找操作，会比直接向对象发送消息高效一些。
+ */
+
+//MARK: - 3. Method
+//Method
+/**
+ typedef struct objc_method *Method;
+ 
+ struct objc_method {
+     SEL method_name          OBJC2_UNAVAILABLE;    // 方法名
+     char *method_types       OBJC2_UNAVAILABLE;
+     IMP method_imp           OBJC2_UNAVAILABLE;    // 方法实现
+ }
+ 
+ 该结构体中包含一个SEL和IMP，实际上相当于在SEL和IMP之间作了一个映射。有了SEL，我们便可以找到对应的IMP，从而调用方法的实现代码。
+ */
+
+//objc_method_description
+
+//struct objc_method_description { SEL name; char *types; };
+
+/**
+ // 调用指定方法的实现
+ id method_invoke ( id receiver, Method m, ... );
+ // 调用返回一个数据结构的方法的实现
+ void method_invoke_stret ( id receiver, Method m, ... );
+ // 获取方法名
+ SEL method_getName ( Method m );
+ // 返回方法的实现
+ IMP method_getImplementation ( Method m );
+ // 获取描述方法参数和返回值类型的字符串
+ const char * method_getTypeEncoding ( Method m );
+ // 获取方法的返回值类型的字符串
+ char * method_copyReturnType ( Method m );
+ // 获取方法的指定位置参数的类型字符串
+ char * method_copyArgumentType ( Method m, unsigned int index );
+ // 通过引用返回方法的返回值类型字符串
+ void method_getReturnType ( Method m, char *dst, size_t dst_len );
+ // 返回方法的参数的个数
+ unsigned int method_getNumberOfArguments ( Method m );
+ // 通过引用返回方法指定位置参数的类型字符串
+ void method_getArgumentType ( Method m, unsigned int index, char *dst, size_t dst_len );
+ // 返回指定方法的方法描述结构体
+ struct objc_method_description * method_getDescription ( Method m );
+ // 设置方法的实现
+ IMP method_setImplementation ( Method m, IMP imp );
+ // 交换两个方法的实现
+ void method_exchangeImplementations ( Method m1, Method m2 );
+ 
+ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
