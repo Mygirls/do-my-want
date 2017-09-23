@@ -14,9 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
       
+        let a =  UIScreen.main.bounds.size.height
+        let b =  UIScreen.main.bounds.size.width
+
+        print("a = \(a), b = \(b)")
         
+        //a = 736.0, b = 414.0 8plus
         
-         
+        //a = 812.0, b = 375.0  iponeX
+
+        //a = 667.0, b = 375.0 iphone8
+
     }
 
     override func didReceiveMemoryWarning() {
