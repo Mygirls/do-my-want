@@ -271,6 +271,7 @@
 				TargetAttributes = {
 					0B2AA3D71F5E31790051717D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7BALBZ7Z95;
 						ProvisioningStyle = Automatic;
 					};
 					0B2AA3F01F5E317A0051717D = {
@@ -443,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -486,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,9 +499,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
 				INFOPLIST_FILE = "滚动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Majq.--";
+				PRODUCT_BUNDLE_IDENTIFIER = lejingjitest.cfzq.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -509,9 +511,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
 				INFOPLIST_FILE = "滚动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Majq.--";
+				PRODUCT_BUNDLE_IDENTIFIER = lejingjitest.cfzq.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -581,6 +584,7 @@
 				0B2AA4071F5E317A0051717D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B2AA4081F5E317A0051717D /* Build configuration list for PBXNativeTarget "滚动Tests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +593,7 @@
 				0B2AA40A1F5E317A0051717D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B2AA40B1F5E317A0051717D /* Build configuration list for PBXNativeTarget "滚动UITests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +602,7 @@
 				0B2AA40D1F5E317A0051717D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

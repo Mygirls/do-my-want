@@ -54,6 +54,8 @@
 		0B1899021F76250A00642857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B18990E1F76254600642857 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0B18990F1F76254600642857 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0B45CC651F78E39C00CCDA10 /* add01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add01.png; sourceTree = "<group>"; };
+		0B45CC661F78E39C00CCDA10 /* add02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,8 @@
 		0B1898DB1F76250A00642857 /* RuntimeDemo05_添加方法 */ = {
 			isa = PBXGroup;
 			children = (
+				0B45CC651F78E39C00CCDA10 /* add01.png */,
+				0B45CC661F78E39C00CCDA10 /* add02.png */,
 				0B1898DC1F76250A00642857 /* AppDelegate.h */,
 				0B1898DD1F76250A00642857 /* AppDelegate.m */,
 				0B1898DF1F76250A00642857 /* ViewController.h */,

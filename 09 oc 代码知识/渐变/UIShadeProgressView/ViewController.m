@@ -21,12 +21,12 @@
     
     
     #if DEBUG
-    ShadeView *shadeView = [[ShadeView alloc]initWithFrame:CGRectMake(100, 200, 100, 300)];
+    ShadeView *shadeView = [[ShadeView alloc]initWithFrame:CGRectMake(100, 200, 100, 100)];
     [self.view addSubview:shadeView];
 
 
     #else
-    ShadeView *shadeView = [[ShadeView alloc]initWithFrame:CGRectMake(100, 100, 100, 300)];
+    ShadeView *shadeView = [[ShadeView alloc]initWithFrame:CGRectMake(100, 300, 100, 300)];
     [self.view addSubview:shadeView];
 
     #endif

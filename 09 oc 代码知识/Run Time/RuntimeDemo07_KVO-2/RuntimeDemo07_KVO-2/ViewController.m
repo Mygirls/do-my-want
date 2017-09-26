@@ -67,7 +67,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    _p.age = 100;   //访问set 方法
+    static int i = 100;
+    i ++;
+    _p.age = i;   //访问set 方法
     
     _p->_name = @"";    //直接访问成员变量
 }

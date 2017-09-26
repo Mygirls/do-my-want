@@ -55,7 +55,8 @@ void eat(id objc,SEL _cmd,id obj) {
          cls: The class to which to add a method.
          name: A selector that specifies the name of the method being added.
          IMP: A function which is the implementation of the new method. The function must take at least two arguments—self and _cmd.  方法实现，就是一个函数指针！！
-         types: 返回值类型(An array of characters that describe the types of the arguments to the method. For possible values, see Objective-C Runtime Programming Guide > Type Encodings. Since the function must take at least two arguments—self and _cmd, the second and third characters must be “@:” (the first character is the return type).)
+         types: 返回值类型(An array of characters that describe the types of the arguments to the method. For possible values, see Objective-C Runtime Programming Guide > Type Encodings. Since the function must take at least two arguments—self and _cmd, the second and third characters must be “@:” (the first character is the return type).)  如图： add01.png 、add02.png
+         
          */
         class_addMethod([Person class], @selector(eat:), (IMP)eat, "v@:");
     }

@@ -40,7 +40,9 @@ extension ViewController {
     
         //下标语法
         var threeTimeTable = TimesTable(multiplier: 3)
-        threeTimeTable[3] = 5
+        threeTimeTable[1] = 5
+        print(threeTimeTable[3])
+
         print(threeTimeTable[6])
         
         //下标选项
@@ -449,9 +451,7 @@ class SurveyQuestion {
 
 class A : SurveyQuestion {
     
-    override init(text: String) {
-        
-    }
+   
 }
 
 
