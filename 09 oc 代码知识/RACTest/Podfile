@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+
+target 'RACTest' do
+pod 'AFNetworking', '~> 3.0'
+# pod 'ReactiveCocoa', '~> 6.0'
+# ReactiveObjC
+pod 'ReactiveObjC'
+
+end
+
+
+
+
+
+
+

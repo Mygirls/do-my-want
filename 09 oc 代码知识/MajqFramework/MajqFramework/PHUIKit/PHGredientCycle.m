@@ -10,6 +10,7 @@
 #import "UIViewExt.h"
 #define radians(degrees)  (degrees)*M_PI/180.0f  
 
+#import "AFNetRequest.h"
 @implementation PHGredientCycle
 - (instancetype)initWithFrame:(CGRect)frame
 {
