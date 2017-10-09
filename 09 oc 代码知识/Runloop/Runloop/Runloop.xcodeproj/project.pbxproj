@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1D2FED1F7E27190040F1F2 /* MajqThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D2FEC1F7E27190040F1F2 /* MajqThread.m */; };
 		0B1D51E31F7BDB8900D5334A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D51E21F7BDB8900D5334A /* AppDelegate.m */; };
 		0B1D51E61F7BDB8900D5334A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D51E51F7BDB8900D5334A /* ViewController.m */; };
 		0B1D51E91F7BDB8900D5334A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D51E71F7BDB8900D5334A /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1D2FEB1F7E27190040F1F2 /* MajqThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MajqThread.h; sourceTree = "<group>"; };
+		0B1D2FEC1F7E27190040F1F2 /* MajqThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajqThread.m; sourceTree = "<group>"; };
 		0B1D51DE1F7BDB8900D5334A /* Runloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1D51E11F7BDB8900D5334A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B1D51E21F7BDB8900D5334A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				0B1D51E21F7BDB8900D5334A /* AppDelegate.m */,
 				0B1D51E41F7BDB8900D5334A /* ViewController.h */,
 				0B1D51E51F7BDB8900D5334A /* ViewController.m */,
+				0B1D2FEB1F7E27190040F1F2 /* MajqThread.h */,
+				0B1D2FEC1F7E27190040F1F2 /* MajqThread.m */,
 				0B1D51E71F7BDB8900D5334A /* Main.storyboard */,
 				0B1D51EA1F7BDB8900D5334A /* Assets.xcassets */,
 				0B1D51EC1F7BDB8900D5334A /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1D2FED1F7E27190040F1F2 /* MajqThread.m in Sources */,
 				0B1D51E61F7BDB8900D5334A /* ViewController.m in Sources */,
 				0B1D51F11F7BDB8900D5334A /* main.m in Sources */,
 				0B1D51E31F7BDB8900D5334A /* AppDelegate.m in Sources */,

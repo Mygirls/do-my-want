@@ -59,6 +59,7 @@
 - (void)testBlock01 {
     _p = [[Person alloc] init];
     _p.myBlock = ^{
+        
         NSLog(@"block 作为属性");
     };
     
@@ -86,6 +87,18 @@
     _p.play();
     
     _p.see(5);
+    
+    
+    int a = _p.work(8);
+    NSLog(@"%d",a);
+
+    typedef int(^RBlock)(int);
+    
+    RBlock bl = _p.work;
+    int b = bl(8);
+    NSLog(@"%d",b);
+
+    
     
     
 }

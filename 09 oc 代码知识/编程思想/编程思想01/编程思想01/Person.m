@@ -33,6 +33,15 @@
     };  
 }
 
+- (int(^)(int)) work
+{
+    return ^(int i){
+        
+        return 8;
+    };
+    
+}
+
 - (Person * (^)(int)) sleep {
     
     return ^(int i) {

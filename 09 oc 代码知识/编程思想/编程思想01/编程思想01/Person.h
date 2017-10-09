@@ -21,9 +21,12 @@ typedef  void(^MyBlock)(void);
 - (void)eat:(void(^)(void))block;
 
 //作为返回值
-- (void(^)(void))play;
+- (void(^)(void)) play;
 
 - (void(^)(int)) see;
+
+- (int(^)(int)) work;
+
 
 - (Person * (^)(int)) sleep;
 
