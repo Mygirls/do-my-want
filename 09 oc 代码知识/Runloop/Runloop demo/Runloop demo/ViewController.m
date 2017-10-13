@@ -7,10 +7,21 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
+#import "MJQQRCodeGenerate.h"
 
-@interface ViewController ()
+typedef void(^RunloopBlock)(void);
+
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property(nonatomic,strong) UITableView *tableView;
 
 @property(nonatomic,strong)NSTimer *timer;
+
+@property(nonatomic,strong)NSMutableArray *tasks;
+
+@property(nonatomic,assign) NSUInteger maxQueueLength;
+
 @end
 
 @implementation ViewController
@@ -18,8 +29,70 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    
+    _tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.rowHeight = 60;
+    
+    [self.view addSubview:_tableView];
+    
+    _tasks = [NSMutableArray array];
+    _maxQueueLength = 18;
     [self setUpConfig];
+    
+    
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 130;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellId = @"cellid";
+
+   UITableViewCell * cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+ 
+
+    [self addTask:^{
+        [self setupcell:cell];
+
+    }];
+   
+  
+//    [self setupcell:cell];
+//    [self setupcell:cell];
+//
+//    [self setupcell:cell];
+//    
+//    
+//    [self setupcell:cell];
+//    [self setupcell:cell];
+
+    
+    return cell;
+}
+
+- (void) setupcell: (UITableViewCell *) cell
+{
+    UIImageView *imgview = [[ UIImageView alloc] initWithFrame:CGRectMake(20 + 100, 0, 100, 50 )];
+    [cell.contentView addSubview:imgview];
+    CGRect rect = [UIScreen mainScreen].bounds;
+    CGFloat w = rect.size.width;
+    CGFloat h = w;
+    CGFloat y = (rect.size.height - h) / 2;
+    CGRect rect_target = CGRectMake(0, y, w, h);
+    MJQQRCodeGenerate *qrCode = [[MJQQRCodeGenerate alloc]init];
+    UIImage *myImage = [qrCode generateQuickResponseCodeWithFrame:rect_target dataString:@"https://www.baidu.com"];
+    imgview.image =  myImage;
+    
+//     UIImageView *imgview = [[ UIImageView alloc] initWithFrame:CGRectMake(20 + 100, 0, 100, 50 )];
+//    imgview.image = [UIImage imageNamed:@"112"];
+//    [cell.contentView addSubview:imgview];
+    
 }
 
 /** CoreFoundation 源码中 CFRunLoop 关于 RunLoop 的有五个类：
@@ -62,8 +135,26 @@
     
 }
 
-static void CallBack() {
+- (void)addTask: (RunloopBlock) task
+{
+    [self.tasks addObject:task];
+    if (self.tasks.count > self.maxQueueLength) {
+        [self.tasks removeObjectAtIndex:0]; //移除最开始的任务
+    }
+    
+}
+
+static void CallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info) {
+    
     NSLog(@"个么来了");
+    ViewController *vc = (__bridge ViewController *) info;
+    if (vc.tasks.count == 0) {
+        return;
+    }
+    RunloopBlock task = vc.tasks.firstObject;
+    task();
+
+    [vc.tasks removeObjectAtIndex:0];
     
 }
 
@@ -100,7 +191,7 @@ static void CallBack() {
     defaultModeObserver = CFRunLoopObserverCreate(NULL, kCFRunLoopAfterWaiting, YES, 0, &CallBack, &context);
     
     //添加观察者
-    CFRunLoopAddObserver(runloop, defaultModeObserver, kCFRunLoopDefaultMode);
+    CFRunLoopAddObserver(runloop, defaultModeObserver, kCFRunLoopCommonModes);
     
     //释放
     CFRelease(defaultModeObserver);

@@ -14,17 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
       
-        let a =  UIScreen.main.bounds.size.height
-        let b =  UIScreen.main.bounds.size.width
-
-        print("a = \(a), b = \(b)")
+       
+        let p = Person(fullyName: "jack")
+        print(p.fullyName)
         
-        //a = 736.0, b = 414.0 8plus
         
-        //a = 812.0, b = 375.0  iponeX
-
-        //a = 667.0, b = 375.0 iphone8
-
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,4 +29,21 @@ class ViewController: UIViewController {
 
 
 }
+
+protocol FullyName {
+    var fullyName: String {get}
+}
+
+protocol Run {
+    var run: String {set get}
+    
+}
+
+struct Person: FullyName {
+    var fullyName: String
+    
+    
+    
+}
+
 

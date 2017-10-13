@@ -15,6 +15,7 @@
 		0B1D300A1F7E336C0040F1F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D30091F7E336C0040F1F2 /* main.m */; };
 		0B1D30141F7E336C0040F1F2 /* Runloop_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D30131F7E336C0040F1F2 /* Runloop_demoTests.m */; };
 		0B1D301F1F7E336C0040F1F2 /* Runloop_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D301E1F7E336C0040F1F2 /* Runloop_demoUITests.m */; };
+		0B2498921F8CE9FE0030CC6F /* MJQQRCodeGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2498911F8CE9FD0030CC6F /* MJQQRCodeGenerate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B035AEA1F8CD0D1001682F6 /* customer_call_90px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "customer_call_90px@2x.png"; sourceTree = "<group>"; };
 		0B1D2FF71F7E336C0040F1F2 /* Runloop demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runloop demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1D2FFA1F7E336C0040F1F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B1D2FFB1F7E336C0040F1F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		0B1D301A1F7E336C0040F1F2 /* Runloop demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runloop demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1D301E1F7E336C0040F1F2 /* Runloop_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runloop_demoUITests.m; sourceTree = "<group>"; };
 		0B1D30201F7E336C0040F1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2498901F8CE9FD0030CC6F /* MJQQRCodeGenerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJQQRCodeGenerate.h; sourceTree = "<group>"; };
+		0B2498911F8CE9FD0030CC6F /* MJQQRCodeGenerate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJQQRCodeGenerate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,13 @@
 		0B1D2FF91F7E336C0040F1F2 /* Runloop demo */ = {
 			isa = PBXGroup;
 			children = (
+				0B035AEA1F8CD0D1001682F6 /* customer_call_90px@2x.png */,
 				0B1D2FFA1F7E336C0040F1F2 /* AppDelegate.h */,
 				0B1D2FFB1F7E336C0040F1F2 /* AppDelegate.m */,
 				0B1D2FFD1F7E336C0040F1F2 /* ViewController.h */,
 				0B1D2FFE1F7E336C0040F1F2 /* ViewController.m */,
+				0B2498901F8CE9FD0030CC6F /* MJQQRCodeGenerate.h */,
+				0B2498911F8CE9FD0030CC6F /* MJQQRCodeGenerate.m */,
 				0B1D30001F7E336C0040F1F2 /* Main.storyboard */,
 				0B1D30031F7E336C0040F1F2 /* Assets.xcassets */,
 				0B1D30051F7E336C0040F1F2 /* LaunchScreen.storyboard */,
@@ -268,6 +275,7 @@
 				0B1D2FFF1F7E336C0040F1F2 /* ViewController.m in Sources */,
 				0B1D300A1F7E336C0040F1F2 /* main.m in Sources */,
 				0B1D2FFC1F7E336C0040F1F2 /* AppDelegate.m in Sources */,
+				0B2498921F8CE9FE0030CC6F /* MJQQRCodeGenerate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
 				INFOPLIST_FILE = "Runloop demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Majq.Runloop-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = lejingjitest.cfzq.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,10 +453,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RZ6WBQL87R;
+				DEVELOPMENT_TEAM = 7BALBZ7Z95;
 				INFOPLIST_FILE = "Runloop demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Majq.Runloop-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = lejingjitest.cfzq.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
