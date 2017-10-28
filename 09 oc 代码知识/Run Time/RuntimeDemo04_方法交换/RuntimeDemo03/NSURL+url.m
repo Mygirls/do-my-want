@@ -78,7 +78,8 @@
     //看起来就是死循环的代码
     NSURL *url = [NSURL HK_URLWSTR:str]; //走系统的方法实现，相当于调用系统的URLWithString，因为他们两个方法的实现交换了
     /**
-     
+     NSURL *url2 = [NSURL HK_URLWSTR:@"http://www.baidu.com/中文"];
+
      */
     
     if (!url) {

@@ -34,8 +34,7 @@
 
 #pragma mark - 当属性过多的时候
 //告诉系统归档哪些属性
-- (void)encodeWithCoder:(NSCoder *)coder
-{
+- (void)encodeWithCoder:(NSCoder *)coder {
     unsigned int count = 0;
     Ivar *ivars = class_copyIvarList([Person class], &count);
     for (int i = 0; i < count; i ++) {
@@ -47,17 +46,13 @@
         //归档 kvo 取值
         [coder encodeObject:[self valueForKey:key] forKey:key];
     }
-    
     //c语言里面，一旦遇到copy creat new 需要释放
     free(ivars);
 }
-
 //告诉系统解档哪些属性
-- (instancetype)initWithCoder:(NSCoder *)coder
-{
+- (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super init];
     if (self) {
-       
         unsigned int count = 0;
         Ivar *ivars = class_copyIvarList([Person class], &count);
         for (int i = 0; i < count; i ++) {
@@ -70,7 +65,6 @@
             [self setValue:value forKey:key];
         }
         free(ivars);
-
     }
     return self;
 }

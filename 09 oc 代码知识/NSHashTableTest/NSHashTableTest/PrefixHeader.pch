@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  NSHashTableTest
+//
+//  Created by JQ on 2017/10/16.
+//  Copyright © 2017年 Majq. All rights reserved.
+//
+
+//#ifndef PrefixHeader_h
+//#define PrefixHeader_h
+//
+//
+//#import "RootViewController.h"
+//
+//
+//#endif /* PrefixHeader_h */
+
+#import <Availability.h>
+#import "RootViewController.h"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ObjectDetector.h"
+
+#endif
